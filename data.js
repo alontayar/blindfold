@@ -221,68 +221,36 @@ const songs = [
   /* ── THELONIOUS MONK ──────────────────────────────────── */
   { title:"Monk's Dream", album:"Monk's Dream", leader:'Thelonious Monk', year:1963, youtubeId:'mgqYJa5hMQY',
     personnel:{ piano:'Thelonious Monk', tenor_sax:'Charlie Rouse', bass:'John Ore', drums:'Frankie Dunlop' }},
-  { title:'Straight, No Chaser', album:"Monk's Dream", leader:'Thelonious Monk', year:1963, youtubeId:'7naC7TF9OU0',
-    personnel:{ piano:'Thelonious Monk', tenor_sax:'Charlie Rouse', bass:'John Ore', drums:'Frankie Dunlop' }},
-  { title:'Blue Monk', album:'Thelonious Monk Trio', leader:'Thelonious Monk', year:1954, youtubeId:'R-nCIqW2VRk',
+  { title:'Blue Monk', album:'Thelonious Monk Trio', leader:'Thelonious Monk', year:1954, youtubeId:'WZcTZycaBdg',
     personnel:{ piano:'Thelonious Monk', bass:'Percy Heath', drums:'Art Blakey' }},
-  { title:'Ruby, My Dear', album:'Thelonious Himself', leader:'Thelonious Monk', year:1957, youtubeId:'1Mzd50vL1Yc',
-    personnel:{ piano:'Thelonious Monk' }},
 
   /* ── HANK MOBLEY ──────────────────────────────────────── */
-  { title:'This I Dig of You', album:'Soul Station', leader:'Hank Mobley', year:1960, youtubeId:'ew1Xnq3BkEU',
+  { title:'This I Dig of You', album:'Soul Station', leader:'Hank Mobley', year:1960, youtubeId:'nJ-i3i2B9O0',
     personnel:{ tenor_sax:'Hank Mobley', piano:'Wynton Kelly', bass:'Paul Chambers', drums:'Art Blakey' }},
-  { title:'Remember', album:'Soul Station', leader:'Hank Mobley', year:1960, youtubeId:'9TglVr_8QZk',
+  { title:'Remember', album:'Soul Station', leader:'Hank Mobley', year:1960, youtubeId:'KV0HX9sk_04',
     personnel:{ tenor_sax:'Hank Mobley', piano:'Wynton Kelly', bass:'Paul Chambers', drums:'Art Blakey' }},
 
   /* ── DEXTER GORDON ────────────────────────────────────── */
-  { title:'Cheese Cake', album:'Go!', leader:'Dexter Gordon', year:1962, youtubeId:'sSOgNgkgzLc',
-    personnel:{ tenor_sax:'Dexter Gordon', piano:'Sonny Clark', bass:'Butch Warren', drums:'Billy Higgins' }},
-  { title:'Society Red', album:'Go!', leader:'Dexter Gordon', year:1962, youtubeId:'KBo3L6ZoIFI',
+  { title:'Cheese Cake', album:'Go!', leader:'Dexter Gordon', year:1962, youtubeId:'hkyJQcmVtZQ',
     personnel:{ tenor_sax:'Dexter Gordon', piano:'Sonny Clark', bass:'Butch Warren', drums:'Billy Higgins' }},
 
   /* ── SONNY CLARK ──────────────────────────────────────── */
-  { title:"Cool Struttin'", album:"Cool Struttin'", leader:'Sonny Clark', year:1958, youtubeId:'OV0-mD0hFPE',
+  { title:"Cool Struttin'", album:"Cool Struttin'", leader:'Sonny Clark', year:1958, youtubeId:'UiidZPQ9G2g',
     personnel:{ trumpet:'Art Farmer', alto_sax:'Jackie McLean', piano:'Sonny Clark', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
 
   /* ── CANNONBALL ADDERLEY ──────────────────────────────── */
-  { title:'Autumn Leaves', album:"Somethin' Else", leader:'Cannonball Adderley', year:1958, youtubeId:'b-iPSzUFMbc',
+  { title:'Autumn Leaves', album:"Somethin' Else", leader:'Cannonball Adderley', year:1958, youtubeId:'CpB7-8SGlJ0',
     personnel:{ alto_sax:'Cannonball Adderley', trumpet:'Miles Davis', piano:'Hank Jones', bass:'Sam Jones', drums:'Art Blakey' }},
-  { title:"Somethin' Else", album:"Somethin' Else", leader:'Cannonball Adderley', year:1958, youtubeId:'tG97xkqmD2U',
+  { title:"Somethin' Else", album:"Somethin' Else", leader:'Cannonball Adderley', year:1958, youtubeId:'yOtqq3E0JNg',
     personnel:{ alto_sax:'Cannonball Adderley', trumpet:'Miles Davis', piano:'Hank Jones', bass:'Sam Jones', drums:'Art Blakey' }},
-  { title:'Work Song', album:'The Cannonball Adderley Quintet in San Francisco', leader:'Cannonball Adderley', year:1959, youtubeId:'kU3Ey7A35Ow',
+  { title:'Work Song', album:'The Cannonball Adderley Quintet in San Francisco', leader:'Cannonball Adderley', year:1959, youtubeId:'VlepuNi40M8',
     personnel:{ alto_sax:'Cannonball Adderley', cornet:'Nat Adderley', piano:'Bobby Timmons', bass:'Sam Jones', drums:'Louis Hayes' }},
-  { title:'Mercy, Mercy, Mercy', album:'Mercy, Mercy, Mercy!', leader:'Cannonball Adderley', year:1966, youtubeId:'73FpYnZu_nU',
+  { title:'Mercy, Mercy, Mercy', album:'Mercy, Mercy, Mercy!', leader:'Cannonball Adderley', year:1966, youtubeId:'y7FFLYXEOqA',
     personnel:{ alto_sax:'Cannonball Adderley', cornet:'Nat Adderley', piano:'Joe Zawinul', bass:'Victor Gaskin', drums:'Roy McCurdy' }},
 
   /* ── KENNY BURRELL ────────────────────────────────────── */
-  { title:'Chitlins con Carne', album:'Midnight Blue', leader:'Kenny Burrell', year:1963, youtubeId:'tnRQnAfmRQE',
+  { title:'Chitlins con Carne', album:'Midnight Blue', leader:'Kenny Burrell', year:1963, youtubeId:'ylGjvwXV3HA',
     personnel:{ guitar:'Kenny Burrell', tenor_sax:'Stanley Turrentine', bass:'Major Holley', drums:'Bill English' }},
-  { title:'Midnight Blue', album:'Midnight Blue', leader:'Kenny Burrell', year:1963, youtubeId:'zFdW0a-Y8R4',
-    personnel:{ guitar:'Kenny Burrell', tenor_sax:'Stanley Turrentine', bass:'Major Holley', drums:'Bill English' }},
-
-  /* ── JIMMY SMITH ──────────────────────────────────────── */
-  { title:'The Sermon', album:'The Sermon!', leader:'Jimmy Smith', year:1958, youtubeId:'BF-gVBEUGw0',
-    personnel:{ organ:'Jimmy Smith', trumpet:'Donald Byrd', alto_sax:'Lou Donaldson', tenor_sax:'Tina Brooks', guitar:'Kenny Burrell', drums:'Art Blakey' }},
-  { title:'Back at the Chicken Shack', album:'Back at the Chicken Shack', leader:'Jimmy Smith', year:1960, youtubeId:'b7YECsZLmL0',
-    personnel:{ organ:'Jimmy Smith', tenor_sax:'Stanley Turrentine', guitar:'Kenny Burrell', drums:'Donald Bailey' }},
-
-  /* ── FREDDIE HUBBARD ──────────────────────────────────── */
-  { title:'Ready for Freddie', album:'Ready for Freddie', leader:'Freddie Hubbard', year:1961, youtubeId:'RoaHixNJSBs',
-    personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Wayne Shorter', piano:'McCoy Tyner', bass:'Art Davis', drums:'Elvin Jones' }},
-
-  /* ── CHARLES MINGUS ───────────────────────────────────── */
-  { title:'Goodbye Pork Pie Hat', album:'Mingus Ah Um', leader:'Charles Mingus', year:1959, youtubeId:'wWgtTI-1M_4',
-    personnel:{ alto_sax:'John Handy', tenor_sax:'Booker Ervin', piano:'Horace Parlan', bass:'Charles Mingus', drums:'Dannie Richmond' }},
-  { title:'Better Git It in Your Soul', album:'Mingus Ah Um', leader:'Charles Mingus', year:1959, youtubeId:'n9JMNhF7SiI',
-    personnel:{ alto_sax:'John Handy', tenor_sax:'Booker Ervin', piano:'Horace Parlan', bass:'Charles Mingus', drums:'Dannie Richmond' }},
-  { title:'Fables of Faubus', album:'Mingus Ah Um', leader:'Charles Mingus', year:1959, youtubeId:'6-Gik0cE7Gk',
-    personnel:{ alto_sax:'John Handy', tenor_sax:'Booker Ervin', piano:'Horace Parlan', bass:'Charles Mingus', drums:'Dannie Richmond' }},
-
-  /* ── CHET BAKER ───────────────────────────────────────── */
-  { title:'My Funny Valentine', album:'Chet Baker Sings', leader:'Chet Baker', year:1954, youtubeId:'0wlbPAqeRUw',
-    personnel:{ trumpet:'Chet Baker', piano:'Russ Freeman', bass:'Carson Smith', drums:'Bob Neel' }},
-  { title:'But Not for Me', album:'Chet Baker Sings', leader:'Chet Baker', year:1954, youtubeId:'HsKGvBcQI5Q',
-    personnel:{ trumpet:'Chet Baker', piano:'Russ Freeman', bass:'Carson Smith', drums:'Bob Neel' }},
 
   /* ── ERIC DOLPHY ──────────────────────────────────────── */
   { title:'Out to Lunch', album:'Out to Lunch!', leader:'Eric Dolphy', year:1964, youtubeId:'ZkClMVPJPNs',
