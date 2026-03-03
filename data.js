@@ -113,36 +113,34 @@ const songs = [
     personnel:{ piano:'Bill Evans', bass:'Sam Jones', drums:'Philly Joe Jones' }},
 
   /* ── ART BLAKEY ───────────────────────────────────────── */
-  { title:"Moanin'", album:"Moanin'", leader:'Art Blakey & The Jazz Messengers', year:1958, youtubeId:'kNBOrRRkAag',
+  { title:"Moanin'", album:"Moanin'", leader:'Art Blakey & The Jazz Messengers', year:1958, youtubeId:'Cv9NSR-2DwM',
     personnel:{ trumpet:'Lee Morgan', tenor_sax:'Benny Golson', piano:'Bobby Timmons', bass:'Jymie Merritt', drums:'Art Blakey' }},
-  { title:'Along Came Betty', album:"Moanin'", leader:'Art Blakey & The Jazz Messengers', year:1958, youtubeId:'HsGKTygVopY',
+  { title:'Along Came Betty', album:"Moanin'", leader:'Art Blakey & The Jazz Messengers', year:1958, youtubeId:'CTzRHq_cH5E',
     personnel:{ trumpet:'Lee Morgan', tenor_sax:'Benny Golson', piano:'Bobby Timmons', bass:'Jymie Merritt', drums:'Art Blakey' }},
-  { title:'Blues March', album:"Moanin'", leader:'Art Blakey & The Jazz Messengers', year:1958, youtubeId:'S7BKcCaFVgE',
+  { title:'Blues March', album:"Moanin'", leader:'Art Blakey & The Jazz Messengers', year:1958, youtubeId:'sOES7AZ-d60',
     personnel:{ trumpet:'Lee Morgan', tenor_sax:'Benny Golson', piano:'Bobby Timmons', bass:'Jymie Merritt', drums:'Art Blakey' }},
-  { title:'Free for All', album:'Free for All', leader:'Art Blakey & The Jazz Messengers', year:1964, youtubeId:'WHNvWjXCxaQ',
+  { title:'Free for All', album:'Free for All', leader:'Art Blakey & The Jazz Messengers', year:1964, youtubeId:'GJBLA39spc4',
     personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Wayne Shorter', piano:'Cedar Walton', bass:'Reggie Workman', drums:'Art Blakey' }},
-  { title:'A Night in Tunisia', album:'A Night in Tunisia', leader:'Art Blakey & The Jazz Messengers', year:1960, youtubeId:'nBCMWm7lPiE',
+  { title:'A Night in Tunisia', album:'A Night in Tunisia', leader:'Art Blakey & The Jazz Messengers', year:1960, youtubeId:'FHKyVJ5YfNU',
     personnel:{ trumpet:'Lee Morgan', tenor_sax:'Wayne Shorter', piano:'Walter Davis Jr.', bass:'Jymie Merritt', drums:'Art Blakey' }},
 
   /* ── CLIFFORD BROWN & MAX ROACH ───────────────────────── */
-  { title:'Joy Spring', album:'Study in Brown', leader:'Clifford Brown & Max Roach', year:1955, youtubeId:'nGHI4AAIYP0',
+  { title:'Joy Spring', album:'Study in Brown', leader:'Clifford Brown & Max Roach', year:1955, youtubeId:'dnK6OHPQZbA',
     personnel:{ trumpet:'Clifford Brown', tenor_sax:'Harold Land', piano:'Richie Powell', bass:'George Morrow', drums:'Max Roach' }},
-  { title:'Daahoud', album:'Study in Brown', leader:'Clifford Brown & Max Roach', year:1955, youtubeId:'C-o_l9LFiGo',
+  { title:'Daahoud', album:'Study in Brown', leader:'Clifford Brown & Max Roach', year:1955, youtubeId:'lv4EarQxGMo',
     personnel:{ trumpet:'Clifford Brown', tenor_sax:'Harold Land', piano:'Richie Powell', bass:'George Morrow', drums:'Max Roach' }},
-  { title:'What Is This Thing Called Love', album:'At Basin Street', leader:'Clifford Brown & Max Roach', year:1956, youtubeId:'Fgu3Hav_kEI',
+  { title:'What Is This Thing Called Love', album:'At Basin Street', leader:'Clifford Brown & Max Roach', year:1956, youtubeId:'Gb_uG7dSGcs',
     personnel:{ trumpet:'Clifford Brown', tenor_sax:'Sonny Rollins', piano:'Richie Powell', bass:'George Morrow', drums:'Max Roach' }},
-  { title:'Cherokee', album:'Study in Brown', leader:'Clifford Brown & Max Roach', year:1955, youtubeId:'YuFkYuaGNvo',
+  { title:'Cherokee', album:'Study in Brown', leader:'Clifford Brown & Max Roach', year:1955, youtubeId:'M283JFxesic',
     personnel:{ trumpet:'Clifford Brown', tenor_sax:'Harold Land', piano:'Richie Powell', bass:'George Morrow', drums:'Max Roach' }},
 
   /* ── SONNY ROLLINS ────────────────────────────────────── */
-  { title:'St. Thomas', album:'Saxophone Colossus', leader:'Sonny Rollins', year:1956, youtubeId:'oTNbOKOLkJg',
+  { title:'St. Thomas', album:'Saxophone Colossus', leader:'Sonny Rollins', year:1956, youtubeId:'fdakJqKPRDE',
     personnel:{ tenor_sax:'Sonny Rollins', piano:'Tommy Flanagan', bass:'Doug Watkins', drums:'Max Roach' }},
-  { title:'Strode Rode', album:'Saxophone Colossus', leader:'Sonny Rollins', year:1956, youtubeId:'rOB2FNRP6-g',
+  { title:'Strode Rode', album:'Saxophone Colossus', leader:'Sonny Rollins', year:1956, youtubeId:'L7G4DciALDs',
     personnel:{ tenor_sax:'Sonny Rollins', piano:'Tommy Flanagan', bass:'Doug Watkins', drums:'Max Roach' }},
-  { title:'Blue 7', album:'Saxophone Colossus', leader:'Sonny Rollins', year:1956, youtubeId:'INSnbR2j7E8',
+  { title:'Blue 7', album:'Saxophone Colossus', leader:'Sonny Rollins', year:1956, youtubeId:'-QtwXvu1uGA',
     personnel:{ tenor_sax:'Sonny Rollins', piano:'Tommy Flanagan', bass:'Doug Watkins', drums:'Max Roach' }},
-  { title:'Moritat (Mack the Knife)', album:'Way Out West', leader:'Sonny Rollins', year:1957, youtubeId:'_yIaaM7DLUQ',
-    personnel:{ tenor_sax:'Sonny Rollins', bass:'Ray Brown', drums:'Shelly Manne' }},
 
   /* ── LEE MORGAN ───────────────────────────────────────── */
   { title:'The Sidewinder', album:'The Sidewinder', leader:'Lee Morgan', year:1963, youtubeId:'AjRFpOlmJZk',
