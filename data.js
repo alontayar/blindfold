@@ -189,39 +189,39 @@ const songs = [
     personnel:{ guitar:'Grant Green', piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Elvin Jones' }},
 
   /* ── HORACE SILVER ────────────────────────────────────── */
-  { title:'Song for My Father', album:'Song for My Father', leader:'Horace Silver', year:1964, youtubeId:'XGMzmRKJdJM',
+  { title:'Song for My Father', album:'Song for My Father', leader:'Horace Silver', year:1964, youtubeId:'mKf1x3CALAE',
     personnel:{ trumpet:'Carmell Jones', tenor_sax:'Joe Henderson', piano:'Horace Silver', bass:'Teddy Smith', drums:'Roger Humphries' }},
-  { title:"Blowin' the Blues Away", album:"Blowin' the Blues Away", leader:'Horace Silver', year:1959, youtubeId:'fEJF4lYVqnA',
+  { title:"Blowin' the Blues Away", album:"Blowin' the Blues Away", leader:'Horace Silver', year:1959, youtubeId:'9aOpQMpcybQ',
     personnel:{ trumpet:'Blue Mitchell', tenor_sax:'Junior Cook', piano:'Horace Silver', bass:'Gene Taylor', drums:'Louis Hayes' }},
-  { title:'Senor Blues', album:'6 Pieces of Silver', leader:'Horace Silver', year:1956, youtubeId:'vr3GsvLBVYM',
+  { title:'Senor Blues', album:'6 Pieces of Silver', leader:'Horace Silver', year:1956, youtubeId:'yKWphXfIsxs',
     personnel:{ trumpet:'Donald Byrd', tenor_sax:'Hank Mobley', piano:'Horace Silver', bass:'Doug Watkins', drums:'Art Taylor' }},
 
   /* ── ORNETTE COLEMAN ──────────────────────────────────── */
-  { title:'Lonely Woman', album:'The Shape of Jazz to Come', leader:'Ornette Coleman', year:1959, youtubeId:'P4R21zNIjkc',
+  { title:'Lonely Woman', album:'The Shape of Jazz to Come', leader:'Ornette Coleman', year:1959, youtubeId:'OIIyCOAByDU',
     personnel:{ alto_sax:'Ornette Coleman', cornet:'Don Cherry', bass:'Charlie Haden', drums:'Billy Higgins' }},
-  { title:'Peace', album:'The Shape of Jazz to Come', leader:'Ornette Coleman', year:1959, youtubeId:'e2PXzVXJSw8',
+  { title:'Peace', album:'The Shape of Jazz to Come', leader:'Ornette Coleman', year:1959, youtubeId:'nAomEYBpJsg',
     personnel:{ alto_sax:'Ornette Coleman', cornet:'Don Cherry', bass:'Charlie Haden', drums:'Billy Higgins' }},
-  { title:'Congeniality', album:'The Shape of Jazz to Come', leader:'Ornette Coleman', year:1959, youtubeId:'r38PPiMGGOk',
+  { title:'Congeniality', album:'The Shape of Jazz to Come', leader:'Ornette Coleman', year:1959, youtubeId:'9GB9RazkRrM',
     personnel:{ alto_sax:'Ornette Coleman', cornet:'Don Cherry', bass:'Charlie Haden', drums:'Billy Higgins' }},
 
   /* ── WES MONTGOMERY ───────────────────────────────────── */
-  { title:'West Coast Blues', album:'The Incredible Jazz Guitar of Wes Montgomery', leader:'Wes Montgomery', year:1960, youtubeId:'oNFIi40e2UE',
+  { title:'West Coast Blues', album:'The Incredible Jazz Guitar of Wes Montgomery', leader:'Wes Montgomery', year:1960, youtubeId:'VSkVxeJTiX8',
     personnel:{ guitar:'Wes Montgomery', piano:'Tommy Flanagan', bass:'Percy Heath', drums:'Albert Heath' }},
-  { title:'Four on Six', album:'The Incredible Jazz Guitar of Wes Montgomery', leader:'Wes Montgomery', year:1960, youtubeId:'b57EFCfITxQ',
+  { title:'Four on Six', album:'The Incredible Jazz Guitar of Wes Montgomery', leader:'Wes Montgomery', year:1960, youtubeId:'MBM7R9IgoTg',
     personnel:{ guitar:'Wes Montgomery', piano:'Tommy Flanagan', bass:'Percy Heath', drums:'Albert Heath' }},
-  { title:'D-Natural Blues', album:'The Incredible Jazz Guitar of Wes Montgomery', leader:'Wes Montgomery', year:1960, youtubeId:'sS9r9_fUgXM',
+  { title:'D-Natural Blues', album:'The Incredible Jazz Guitar of Wes Montgomery', leader:'Wes Montgomery', year:1960, youtubeId:'c22uSGkLq1k',
     personnel:{ guitar:'Wes Montgomery', piano:'Tommy Flanagan', bass:'Percy Heath', drums:'Albert Heath' }},
 
   /* ── DAVE BRUBECK ─────────────────────────────────────── */
   { title:'Take Five', album:'Time Out', leader:'Dave Brubeck', year:1959, youtubeId:'vmDDOFXSgAs',
     personnel:{ alto_sax:'Paul Desmond', piano:'Dave Brubeck', bass:'Eugene Wright', drums:'Joe Morello' }},
-  { title:'Blue Rondo a la Turk', album:'Time Out', leader:'Dave Brubeck', year:1959, youtubeId:'JMETnDhQ3EU',
+  { title:'Blue Rondo a la Turk', album:'Time Out', leader:'Dave Brubeck', year:1959, youtubeId:'FqPC-BkylxA',
     personnel:{ alto_sax:'Paul Desmond', piano:'Dave Brubeck', bass:'Eugene Wright', drums:'Joe Morello' }},
 
   /* ── THELONIOUS MONK ──────────────────────────────────── */
-  { title:"Monk's Dream", album:"Monk's Dream", leader:'Thelonious Monk', year:1963, youtubeId:'PGFzD7ZpBrY',
+  { title:"Monk's Dream", album:"Monk's Dream", leader:'Thelonious Monk', year:1963, youtubeId:'mgqYJa5hMQY',
     personnel:{ piano:'Thelonious Monk', tenor_sax:'Charlie Rouse', bass:'John Ore', drums:'Frankie Dunlop' }},
-  { title:'Straight, No Chaser', album:"Monk's Dream", leader:'Thelonious Monk', year:1963, youtubeId:'73q2MtmfOHg',
+  { title:'Straight, No Chaser', album:"Monk's Dream", leader:'Thelonious Monk', year:1963, youtubeId:'7naC7TF9OU0',
     personnel:{ piano:'Thelonious Monk', tenor_sax:'Charlie Rouse', bass:'John Ore', drums:'Frankie Dunlop' }},
   { title:'Blue Monk', album:'Thelonious Monk Trio', leader:'Thelonious Monk', year:1954, youtubeId:'R-nCIqW2VRk',
     personnel:{ piano:'Thelonious Monk', bass:'Percy Heath', drums:'Art Blakey' }},
