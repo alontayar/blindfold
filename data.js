@@ -253,17 +253,17 @@ const songs = [
     personnel:{ guitar:'Kenny Burrell', tenor_sax:'Stanley Turrentine', bass:'Major Holley', drums:'Bill English' }},
 
   /* ── ERIC DOLPHY ──────────────────────────────────────── */
-  { title:'Out to Lunch', album:'Out to Lunch!', leader:'Eric Dolphy', year:1964, youtubeId:'ZkClMVPJPNs',
+  { title:'Out to Lunch', album:'Out to Lunch!', leader:'Eric Dolphy', year:1964, youtubeId:'gzBpK1GcwdQ',
     personnel:{ alto_sax:'Eric Dolphy', trumpet:'Freddie Hubbard', vibraphone:'Bobby Hutcherson', bass:'Richard Davis', drums:'Tony Williams' }},
-  { title:'Hat and Beard', album:'Out to Lunch!', leader:'Eric Dolphy', year:1964, youtubeId:'U42NtXMqt_U',
+  { title:'Hat and Beard', album:'Out to Lunch!', leader:'Eric Dolphy', year:1964, youtubeId:'7tnPkQufnZY',
     personnel:{ alto_sax:'Eric Dolphy', trumpet:'Freddie Hubbard', vibraphone:'Bobby Hutcherson', bass:'Richard Davis', drums:'Tony Williams' }},
 
   /* ── MJQ ──────────────────────────────────────────────── */
-  { title:'Django', album:'Fontessa', leader:'Modern Jazz Quartet', year:1956, youtubeId:'RJnOZHkBwLg',
+  { title:'Django', album:'Fontessa', leader:'Modern Jazz Quartet', year:1956, youtubeId:'TdCjJuknjvs',
     personnel:{ vibraphone:'Milt Jackson', piano:'John Lewis', bass:'Percy Heath', drums:'Kenny Clarke' }},
 
   /* ── ANDREW HILL ──────────────────────────────────────── */
-  { title:'Smoke Stack', album:'Point of Departure', leader:'Andrew Hill', year:1964, youtubeId:'gp3-iyYBMoU',
+  { title:'Refuge', album:'Point of Departure', leader:'Andrew Hill', year:1964, youtubeId:'dYZcjrydVt0',
     personnel:{ trumpet:'Kenny Dorham', alto_sax:'Eric Dolphy', tenor_sax:'Joe Henderson', piano:'Andrew Hill', bass:'Richard Davis', drums:'Tony Williams' }},
 
 ]; /* end songs */
