@@ -33,7 +33,7 @@ const POOLS = {
   trombone:['J.J. Johnson','Curtis Fuller','Slide Hampton','Frank Rosolino','Jimmy Knepper','Grachan Moncur III','Julian Priester','Willie Dennis','Kai Winding','Bob Brookmeyer'],
   guitar:['Wes Montgomery','Grant Green','Jim Hall','Kenny Burrell','Joe Pass','Barney Kessel','Herb Ellis','Jimmy Raney','Tal Farlow','Gabor Szabo'],
   vibraphone:['Milt Jackson','Bobby Hutcherson','Gary Burton','Red Norvo','Victor Feldman','Eddie Costa','Lem Winchester','Cal Tjader','Walt Dickerson'],
-  piano:['Bill Evans','Red Garland','Wynton Kelly','Herbie Hancock','McCoy Tyner','Tommy Flanagan','Barry Harris','Cedar Walton','Bobby Timmons','Horace Silver','Thelonious Monk','Bud Powell','Hank Jones','Ahmad Jamal','Oscar Peterson','Duke Pearson','Richie Powell','Walter Davis Jr.','Sonny Clark','Mal Waldron','Kenny Drew','Roland Hanna','Andrew Hill','Jaki Byard','Joe Zawinul','Elmo Hope','Ray Bryant','Junior Mance','Dave Brubeck','Horace Parlan','Duke Jordan','Russ Freeman'],
+  piano:['Bill Evans','Harold Mabern', 'Red Garland','Wynton Kelly','Herbie Hancock','McCoy Tyner','Tommy Flanagan','Barry Harris','Cedar Walton','Bobby Timmons','Horace Silver','Thelonious Monk','Bud Powell','Hank Jones','Ahmad Jamal','Oscar Peterson','Duke Pearson','Richie Powell','Walter Davis Jr.','Sonny Clark','Mal Waldron','Kenny Drew','Roland Hanna','Andrew Hill','Jaki Byard','Joe Zawinul','Elmo Hope','Ray Bryant','Junior Mance','Dave Brubeck','Horace Parlan','Duke Jordan','Russ Freeman'],
   organ:['Jimmy Smith','Jack McDuff','Larry Young','Shirley Scott','Don Patterson','Charles Earland','Jimmy McGriff','Big John Patton'],
   bass:['Paul Chambers','Scott LaFaro','Ron Carter','Jimmy Garrison','Charlie Haden','Ray Brown','Percy Heath','Wilbur Ware','Reggie Workman','Bob Cranshaw','Sam Jones','Doug Watkins','Oscar Pettiford','George Morrow','Jymie Merritt','Butch Warren','Richard Davis','Teddy Smith','Steve Davis','Art Davis','Leroy Vinnegar','Chuck Israels','Major Holley','Gene Taylor','Henry Grimes','Gary Peacock','Carson Smith','Charles Mingus'],
   drums:['Jimmy Cobb','Philly Joe Jones','Tony Williams','Max Roach','Art Blakey','Elvin Jones','Paul Motian','Roy Haynes','Billy Higgins','Ed Thigpen','Albert Heath','Pete La Roca','Joe Morello','Frankie Dunlop','Ben Riley','Dannie Richmond','Roger Humphries','Shadow Wilson','Art Taylor','Louis Hayes','Charlie Persip','Mickey Roker','Kenny Clarke','Lex Humphries','Bill English','Bob Neel','Al Harewood','Mel Lewis'],
@@ -143,51 +143,49 @@ const songs = [
     personnel:{ tenor_sax:'Sonny Rollins', piano:'Tommy Flanagan', bass:'Doug Watkins', drums:'Max Roach' }},
 
   /* ── LEE MORGAN ───────────────────────────────────────── */
-  { title:'The Sidewinder', album:'The Sidewinder', leader:'Lee Morgan', year:1963, youtubeId:'AjRFpOlmJZk',
+  { title:'The Sidewinder', album:'The Sidewinder', leader:'Lee Morgan', year:1963, youtubeId:'qJi03NqXfk8',
     personnel:{ trumpet:'Lee Morgan', tenor_sax:'Joe Henderson', piano:'Barry Harris', bass:'Bob Cranshaw', drums:'Billy Higgins' }},
-  { title:'Candy', album:'Candy', leader:'Lee Morgan', year:1957, youtubeId:'N8a0YZUIOPA',
-    personnel:{ trumpet:'Lee Morgan', tenor_sax:'Hank Mobley', piano:'Sonny Clark', bass:'Paul Chambers', drums:'Art Taylor' }},
-  { title:'Ceora', album:'Cornbread', leader:'Lee Morgan', year:1965, youtubeId:'GX9vMOe5Gi8',
+  { title:'Ceora', album:'Cornbread', leader:'Lee Morgan', year:1965, youtubeId:'uRjshy_n_yE',
     personnel:{ trumpet:'Lee Morgan', tenor_sax:'Hank Mobley', piano:'Herbie Hancock', bass:'Larry Ridley', drums:'Billy Higgins' }},
-  { title:'Speedball', album:'Search for the New Land', leader:'Lee Morgan', year:1964, youtubeId:'HkDm9bqGPLc',
-    personnel:{ trumpet:'Lee Morgan', tenor_sax:'Wayne Shorter', piano:'Herbie Hancock', bass:'Reggie Workman', drums:'Billy Higgins' }},
+  { title:'Speedball', album:'The Gigolo', leader:'Lee Morgan', year:1968, youtubeId:'HkDm9bqGPLc',
+    personnel:{ trumpet:'Lee Morgan', tenor_sax:'Wayne Shorter', piano:'Harold Mabern', bass:'Bob Cranshaw', drums:'Billy Higgins' }},
 
   /* ── HERBIE HANCOCK ───────────────────────────────────── */
-  { title:'Maiden Voyage', album:'Maiden Voyage', leader:'Herbie Hancock', year:1965, youtubeId:'mGiS2MtZCb0',
+  { title:'Maiden Voyage', album:'Maiden Voyage', leader:'Herbie Hancock', year:1965, youtubeId:'EWC5x9G45yo',
     personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'George Coleman', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Tony Williams' }},
-  { title:'Dolphin Dance', album:'Maiden Voyage', leader:'Herbie Hancock', year:1965, youtubeId:'Cj3jBqVXL0A',
+  { title:'Dolphin Dance', album:'Maiden Voyage', leader:'Herbie Hancock', year:1965, youtubeId:'RaHCnfI7y74',
     personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'George Coleman', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Tony Williams' }},
-  { title:'Watermelon Man', album:"Takin' Off", leader:'Herbie Hancock', year:1962, youtubeId:'oOsTHQYFo98',
+  { title:'Watermelon Man', album:"Takin' Off", leader:'Herbie Hancock', year:1962, youtubeId:'_QkGAaYtXA0',
     personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Dexter Gordon', piano:'Herbie Hancock', bass:'Butch Warren', drums:'Billy Higgins' }},
-  { title:'One Finger Snap', album:'Empyrean Isles', leader:'Herbie Hancock', year:1964, youtubeId:'T9U0nLCWYlU',
+  { title:'One Finger Snap', album:'Empyrean Isles', leader:'Herbie Hancock', year:1964, youtubeId:'yQgv5bRqmnk',
     personnel:{ trumpet:'Freddie Hubbard', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Tony Williams' }},
 
   /* ── WAYNE SHORTER ────────────────────────────────────── */
-  { title:'Speak No Evil', album:'Speak No Evil', leader:'Wayne Shorter', year:1964, youtubeId:'Xg8n0QCp5j4',
+  { title:'Speak No Evil', album:'Speak No Evil', leader:'Wayne Shorter', year:1964, youtubeId:'Vdc3KJVopU4',
     personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Wayne Shorter', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Elvin Jones' }},
-  { title:'Infant Eyes', album:'Speak No Evil', leader:'Wayne Shorter', year:1964, youtubeId:'J2cS0FZRQHM',
+  { title:'Infant Eyes', album:'Speak No Evil', leader:'Wayne Shorter', year:1964, youtubeId:'CYg_3pQN-LU',
     personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Wayne Shorter', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Elvin Jones' }},
-  { title:'Fee-Fi-Fo-Fum', album:'Speak No Evil', leader:'Wayne Shorter', year:1964, youtubeId:'wNP0u3Zqig8',
+  { title:'Fee-Fi-Fo-Fum', album:'Speak No Evil', leader:'Wayne Shorter', year:1964, youtubeId:'5bE0CZi-O8c',
     personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Wayne Shorter', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Elvin Jones' }},
-  { title:'Witch Hunt', album:'Speak No Evil', leader:'Wayne Shorter', year:1964, youtubeId:'z1bEdJR78G4',
+  { title:'Witch Hunt', album:'Speak No Evil', leader:'Wayne Shorter', year:1964, youtubeId:'oJoSrQ6iP0c',
     personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Wayne Shorter', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Elvin Jones' }},
 
   /* ── JOE HENDERSON ────────────────────────────────────── */
-  { title:'Blue Bossa', album:'Page One', leader:'Joe Henderson', year:1963, youtubeId:'BYCr3SJRG4o',
+  { title:'Blue Bossa', album:'Page One', leader:'Joe Henderson', year:1963, youtubeId:'EUxv3AAaK_Y',
     personnel:{ trumpet:'Kenny Dorham', tenor_sax:'Joe Henderson', piano:'McCoy Tyner', bass:'Butch Warren', drums:'Pete La Roca' }},
-  { title:'Recorda Me', album:'Page One', leader:'Joe Henderson', year:1963, youtubeId:'h-TGd0QIHQc',
+  { title:'Recorda Me', album:'Page One', leader:'Joe Henderson', year:1963, youtubeId:'3c9zSAVWKEs',
     personnel:{ trumpet:'Kenny Dorham', tenor_sax:'Joe Henderson', piano:'McCoy Tyner', bass:'Butch Warren', drums:'Pete La Roca' }},
-  { title:'Inner Urge', album:'Inner Urge', leader:'Joe Henderson', year:1964, youtubeId:'TFNlJo8giqk',
+  { title:'Inner Urge', album:'Inner Urge', leader:'Joe Henderson', year:1964, youtubeId:'dYxgci2uPno',
     personnel:{ tenor_sax:'Joe Henderson', piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Elvin Jones' }},
 
   /* ── KENNY DORHAM ─────────────────────────────────────── */
-  { title:'Una Mas', album:'Una Mas', leader:'Kenny Dorham', year:1963, youtubeId:'mGWlSEHJWaA',
+  { title:'Una Mas', album:'Una Mas', leader:'Kenny Dorham', year:1963, youtubeId:'TDETNk20Vkc',
     personnel:{ trumpet:'Kenny Dorham', tenor_sax:'Joe Henderson', piano:'Herbie Hancock', bass:'Butch Warren', drums:'Tony Williams' }},
 
   /* ── GRANT GREEN ──────────────────────────────────────── */
-  { title:'Idle Moments', album:'Idle Moments', leader:'Grant Green', year:1963, youtubeId:'ZRxWIkTNAzM',
+  { title:'Idle Moments', album:'Idle Moments', leader:'Grant Green', year:1963, youtubeId:'aq0m0hbCjFQ',
     personnel:{ guitar:'Grant Green', tenor_sax:'Joe Henderson', vibraphone:'Bobby Hutcherson', piano:'Duke Pearson', bass:'Bob Cranshaw', drums:'Al Harewood' }},
-  { title:'Matador', album:'Matador', leader:'Grant Green', year:1964, youtubeId:'bVW0KBrFWIc',
+  { title:'Matador', album:'Matador', leader:'Grant Green', year:1964, youtubeId:'hTe9M4yFdEQ',
     personnel:{ guitar:'Grant Green', piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Elvin Jones' }},
 
   /* ── HORACE SILVER ────────────────────────────────────── */
