@@ -1,0 +1,305 @@
+/* ============================================================
+   JAZZ BLINDFOLD TEST — DATA FILE
+   ============================================================
+   HOW TO ADD SONGS:
+   1. Find video on YouTube, copy 11-char ID after ?v=
+   2. Set youtubeId:'' to disable video for a track
+   3. Personnel keys must match INSTR_ORDER exactly
+   ============================================================ */
+
+const INSTR_ORDER = [
+  'trumpet','cornet','flugelhorn',
+  'soprano_sax','alto_sax','tenor_sax','baritone_sax',
+  'trombone','guitar','vibraphone',
+  'piano','organ','bass','drums','voice'
+];
+
+const INSTR_LABEL = {
+  trumpet:'Trumpet', cornet:'Cornet', flugelhorn:'Flugelhorn',
+  soprano_sax:'Soprano Sax', alto_sax:'Alto Saxophone',
+  tenor_sax:'Tenor Saxophone', baritone_sax:'Baritone Sax',
+  trombone:'Trombone', guitar:'Guitar', vibraphone:'Vibraphone',
+  piano:'Piano', organ:'Organ', bass:'Bass', drums:'Drums', voice:'Voice'
+};
+
+const POOLS = {
+  trumpet:['Miles Davis','Clifford Brown','Lee Morgan','Freddie Hubbard','Chet Baker','Kenny Dorham','Art Farmer','Donald Byrd','Woody Shaw','Blue Mitchell','Clark Terry','Dizzy Gillespie','Fats Navarro','Booker Little','Thad Jones','Nat Adderley','Ted Curson','Bill Hardman','Johnny Coles','Carmell Jones'],
+  cornet:['Don Cherry','Nat Adderley','Clark Terry','Thad Jones','Bobby Bradford','Ruby Braff'],
+  flugelhorn:['Art Farmer','Miles Davis','Clark Terry','Freddie Hubbard','Thad Jones','Chet Baker'],
+  soprano_sax:['John Coltrane','Steve Lacy','Sidney Bechet','Wayne Shorter','Roland Kirk'],
+  alto_sax:['Cannonball Adderley','Lee Konitz','Phil Woods','Jackie McLean','Art Pepper','Sonny Stitt','Paul Desmond','Eric Dolphy','Charlie Parker','Ornette Coleman','John Handy','Frank Strozier','Gigi Gryce','Lou Donaldson','Charles McPherson','Hank Crawford'],
+  tenor_sax:['John Coltrane','Sonny Rollins','Joe Henderson','Wayne Shorter','Hank Mobley','Dexter Gordon','Johnny Griffin','Benny Golson','Booker Ervin','Stanley Turrentine','Clifford Jordan','Jimmy Heath','Harold Land','Warne Marsh','Zoot Sims','Tina Brooks','Junior Cook','Charlie Rouse','George Coleman','Lucky Thompson','Yusef Lateef'],
+  baritone_sax:['Pepper Adams','Gerry Mulligan','Harry Carney','Lars Gullin','Cecil Payne'],
+  trombone:['J.J. Johnson','Curtis Fuller','Slide Hampton','Frank Rosolino','Jimmy Knepper','Grachan Moncur III','Julian Priester','Willie Dennis','Kai Winding','Bob Brookmeyer'],
+  guitar:['Wes Montgomery','Grant Green','Jim Hall','Kenny Burrell','Joe Pass','Barney Kessel','Herb Ellis','Jimmy Raney','Tal Farlow','Gabor Szabo'],
+  vibraphone:['Milt Jackson','Bobby Hutcherson','Gary Burton','Red Norvo','Victor Feldman','Eddie Costa','Lem Winchester','Cal Tjader','Walt Dickerson'],
+  piano:['Bill Evans','Red Garland','Wynton Kelly','Herbie Hancock','McCoy Tyner','Tommy Flanagan','Barry Harris','Cedar Walton','Bobby Timmons','Horace Silver','Thelonious Monk','Bud Powell','Hank Jones','Ahmad Jamal','Oscar Peterson','Duke Pearson','Richie Powell','Walter Davis Jr.','Sonny Clark','Mal Waldron','Kenny Drew','Roland Hanna','Andrew Hill','Jaki Byard','Joe Zawinul','Elmo Hope','Ray Bryant','Junior Mance','Dave Brubeck','Horace Parlan','Duke Jordan','Russ Freeman'],
+  organ:['Jimmy Smith','Jack McDuff','Larry Young','Shirley Scott','Don Patterson','Charles Earland','Jimmy McGriff','Big John Patton'],
+  bass:['Paul Chambers','Scott LaFaro','Ron Carter','Jimmy Garrison','Charlie Haden','Ray Brown','Percy Heath','Wilbur Ware','Reggie Workman','Bob Cranshaw','Sam Jones','Doug Watkins','Oscar Pettiford','George Morrow','Jymie Merritt','Butch Warren','Richard Davis','Teddy Smith','Steve Davis','Art Davis','Leroy Vinnegar','Chuck Israels','Major Holley','Gene Taylor','Henry Grimes','Gary Peacock','Carson Smith','Charles Mingus'],
+  drums:['Jimmy Cobb','Philly Joe Jones','Tony Williams','Max Roach','Art Blakey','Elvin Jones','Paul Motian','Roy Haynes','Billy Higgins','Ed Thigpen','Albert Heath','Pete La Roca','Joe Morello','Frankie Dunlop','Ben Riley','Dannie Richmond','Roger Humphries','Shadow Wilson','Art Taylor','Louis Hayes','Charlie Persip','Mickey Roker','Kenny Clarke','Lex Humphries','Bill English','Bob Neel','Al Harewood','Mel Lewis'],
+  voice:["Billie Holiday","Sarah Vaughan","Ella Fitzgerald","Carmen McRae","Betty Carter","Abbey Lincoln","Nina Simone","Shirley Horn","Anita O'Day","Chris Connor"]
+};
+
+const songs = [
+
+  /* ── MILES DAVIS ──────────────────────────────────────── */
+  { title:'So What', album:'Kind of Blue', leader:'Miles Davis', year:1959, youtubeId:'ylXk1LBvIqU',
+    personnel:{ trumpet:'Miles Davis', tenor_sax:'John Coltrane', alto_sax:'Cannonball Adderley', piano:'Bill Evans', bass:'Paul Chambers', drums:'Jimmy Cobb' }},
+  { title:'Freddie Freeloader', album:'Kind of Blue', leader:'Miles Davis', year:1959, youtubeId:'RPksE5HN1kU',
+    personnel:{ trumpet:'Miles Davis', tenor_sax:'John Coltrane', alto_sax:'Cannonball Adderley', piano:'Wynton Kelly', bass:'Paul Chambers', drums:'Jimmy Cobb' }},
+  { title:'All Blues', album:'Kind of Blue', leader:'Miles Davis', year:1959, youtubeId:'eqpPpFho7bU',
+    personnel:{ trumpet:'Miles Davis', tenor_sax:'John Coltrane', alto_sax:'Cannonball Adderley', piano:'Bill Evans', bass:'Paul Chambers', drums:'Jimmy Cobb' }},
+  { title:'Blue in Green', album:'Kind of Blue', leader:'Miles Davis', year:1959, youtubeId:'PVzxL9DgXSs',
+    personnel:{ trumpet:'Miles Davis', tenor_sax:'John Coltrane', piano:'Bill Evans', bass:'Paul Chambers', drums:'Jimmy Cobb' }},
+  { title:'Milestones', album:'Milestones', leader:'Miles Davis', year:1958, youtubeId:'Lpdd7gOzEBs',
+    personnel:{ trumpet:'Miles Davis', tenor_sax:'John Coltrane', alto_sax:'Cannonball Adderley', piano:'Red Garland', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
+  { title:"'Round Midnight", album:"'Round About Midnight", leader:'Miles Davis', year:1957, youtubeId:'GkM9gcdAaGo',
+    personnel:{ trumpet:'Miles Davis', tenor_sax:'John Coltrane', piano:'Red Garland', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
+  { title:'Bye Bye Blackbird', album:"'Round About Midnight", leader:'Miles Davis', year:1957, youtubeId:'5bkGa0lTsXg',
+    personnel:{ trumpet:'Miles Davis', tenor_sax:'John Coltrane', piano:'Red Garland', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
+  { title:'E.S.P.', album:'E.S.P.', leader:'Miles Davis', year:1965, youtubeId:'C7DPu8u2B2A',
+    personnel:{ trumpet:'Miles Davis', tenor_sax:'Wayne Shorter', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Tony Williams' }},
+  { title:'Footprints', album:'Miles Smiles', leader:'Miles Davis', year:1967, youtubeId:'hGnPwmzLBuc',
+    personnel:{ trumpet:'Miles Davis', tenor_sax:'Wayne Shorter', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Tony Williams' }},
+  { title:'Agitation', album:'E.S.P.', leader:'Miles Davis', year:1965, youtubeId:'5y2sGbqf_Pk',
+    personnel:{ trumpet:'Miles Davis', tenor_sax:'Wayne Shorter', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Tony Williams' }},
+  { title:"Walkin'", album:"Walkin'", leader:'Miles Davis', year:1954, youtubeId:'J3JBhYZ6CUQ',
+    personnel:{ trumpet:'Miles Davis', trombone:'J.J. Johnson', tenor_sax:'Lucky Thompson', piano:'Horace Silver', bass:'Percy Heath', drums:'Kenny Clarke' }},
+  { title:'Oleo', album:"Cookin' with the Miles Davis Quintet", leader:'Miles Davis', year:1956, youtubeId:'qJpkLUGN25Q',
+    personnel:{ trumpet:'Miles Davis', tenor_sax:'John Coltrane', piano:'Red Garland', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
+  { title:'Two Bass Hit', album:'Milestones', leader:'Miles Davis', year:1958, youtubeId:'TzZH7MBXR6Y',
+    personnel:{ trumpet:'Miles Davis', tenor_sax:'John Coltrane', alto_sax:'Cannonball Adderley', piano:'Red Garland', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
+  { title:'Airegin', album:"Workin' with the Miles Davis Quintet", leader:'Miles Davis', year:1956, youtubeId:'xP_BWQJ7rnk',
+    personnel:{ trumpet:'Miles Davis', tenor_sax:'John Coltrane', piano:'Red Garland', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
+  { title:"Bags' Groove", album:"Bags' Groove", leader:'Miles Davis', year:1954, youtubeId:'sLIfnOGX4Nk',
+    personnel:{ trumpet:'Miles Davis', vibraphone:'Milt Jackson', piano:'Thelonious Monk', bass:'Percy Heath', drums:'Kenny Clarke' }},
+
+  /* ── JOHN COLTRANE ────────────────────────────────────── */
+  { title:'Acknowledgement', album:'A Love Supreme', leader:'John Coltrane', year:1964, youtubeId:'l48LJSPMlSY',
+    personnel:{ tenor_sax:'John Coltrane', piano:'McCoy Tyner', bass:'Jimmy Garrison', drums:'Elvin Jones' }},
+  { title:'Resolution', album:'A Love Supreme', leader:'John Coltrane', year:1964, youtubeId:'bmdCBBOCtR0',
+    personnel:{ tenor_sax:'John Coltrane', piano:'McCoy Tyner', bass:'Jimmy Garrison', drums:'Elvin Jones' }},
+  { title:'Giant Steps', album:'Giant Steps', leader:'John Coltrane', year:1959, youtubeId:'KwIC6B_dvW4',
+    personnel:{ tenor_sax:'John Coltrane', piano:'Tommy Flanagan', bass:'Paul Chambers', drums:'Art Taylor' }},
+  { title:'Naima', album:'Giant Steps', leader:'John Coltrane', year:1959, youtubeId:'QHLQB-4aPdE',
+    personnel:{ tenor_sax:'John Coltrane', piano:'Tommy Flanagan', bass:'Paul Chambers', drums:'Art Taylor' }},
+  { title:'Cousin Mary', album:'Giant Steps', leader:'John Coltrane', year:1959, youtubeId:'g5WJzBxlCDI',
+    personnel:{ tenor_sax:'John Coltrane', piano:'Tommy Flanagan', bass:'Paul Chambers', drums:'Art Taylor' }},
+  { title:'My Favorite Things', album:'My Favorite Things', leader:'John Coltrane', year:1960, youtubeId:'qWG2dsXV5HI',
+    personnel:{ soprano_sax:'John Coltrane', piano:'McCoy Tyner', bass:'Steve Davis', drums:'Elvin Jones' }},
+  { title:'Impressions', album:'Impressions', leader:'John Coltrane', year:1963, youtubeId:'sOVT9T7uEvA',
+    personnel:{ tenor_sax:'John Coltrane', piano:'McCoy Tyner', bass:'Jimmy Garrison', drums:'Elvin Jones' }},
+  { title:'Crescent', album:'Crescent', leader:'John Coltrane', year:1964, youtubeId:'nZVD9nQAo3Y',
+    personnel:{ tenor_sax:'John Coltrane', piano:'McCoy Tyner', bass:'Jimmy Garrison', drums:'Elvin Jones' }},
+  { title:"Lonnie's Lament", album:'Crescent', leader:'John Coltrane', year:1964, youtubeId:'EJZ5kMhJh8g',
+    personnel:{ tenor_sax:'John Coltrane', piano:'McCoy Tyner', bass:'Jimmy Garrison', drums:'Elvin Jones' }},
+  { title:'Afro Blue', album:'Live at Birdland', leader:'John Coltrane', year:1963, youtubeId:'NswMFBRJJBc',
+    personnel:{ tenor_sax:'John Coltrane', piano:'McCoy Tyner', bass:'Jimmy Garrison', drums:'Elvin Jones' }},
+  { title:'Trinkle Tinkle', album:'Thelonious Monk with John Coltrane', leader:'Thelonious Monk', year:1957, youtubeId:'kS0RdGnwmE0',
+    personnel:{ piano:'Thelonious Monk', tenor_sax:'John Coltrane', bass:'Wilbur Ware', drums:'Shadow Wilson' }},
+
+  /* ── BILL EVANS ───────────────────────────────────────── */
+  { title:'Waltz for Debby', album:'Waltz for Debby', leader:'Bill Evans', year:1961, youtubeId:'b1HPfpfekXE',
+    personnel:{ piano:'Bill Evans', bass:'Scott LaFaro', drums:'Paul Motian' }},
+  { title:'My Foolish Heart', album:'Waltz for Debby', leader:'Bill Evans', year:1961, youtubeId:'sKbOMDGTQpc',
+    personnel:{ piano:'Bill Evans', bass:'Scott LaFaro', drums:'Paul Motian' }},
+  { title:'Autumn Leaves', album:'Portrait in Jazz', leader:'Bill Evans', year:1959, youtubeId:'r-Z8KuwI7Gc',
+    personnel:{ piano:'Bill Evans', bass:'Scott LaFaro', drums:'Paul Motian' }},
+  { title:'Solar', album:'Explorations', leader:'Bill Evans', year:1961, youtubeId:'W9fgJj1ZMpY',
+    personnel:{ piano:'Bill Evans', bass:'Scott LaFaro', drums:'Paul Motian' }},
+  { title:'Israel', album:'Explorations', leader:'Bill Evans', year:1961, youtubeId:'ogrKMelFmcw',
+    personnel:{ piano:'Bill Evans', bass:'Scott LaFaro', drums:'Paul Motian' }},
+  { title:'Peace Piece', album:'Everybody Digs Bill Evans', leader:'Bill Evans', year:1958, youtubeId:'p_AYBKr3XFY',
+    personnel:{ piano:'Bill Evans', bass:'Sam Jones', drums:'Philly Joe Jones' }},
+
+  /* ── ART BLAKEY ───────────────────────────────────────── */
+  { title:"Moanin'", album:"Moanin'", leader:'Art Blakey & The Jazz Messengers', year:1958, youtubeId:'kNBOrRRkAag',
+    personnel:{ trumpet:'Lee Morgan', tenor_sax:'Benny Golson', piano:'Bobby Timmons', bass:'Jymie Merritt', drums:'Art Blakey' }},
+  { title:'Along Came Betty', album:"Moanin'", leader:'Art Blakey & The Jazz Messengers', year:1958, youtubeId:'HsGKTygVopY',
+    personnel:{ trumpet:'Lee Morgan', tenor_sax:'Benny Golson', piano:'Bobby Timmons', bass:'Jymie Merritt', drums:'Art Blakey' }},
+  { title:'Blues March', album:"Moanin'", leader:'Art Blakey & The Jazz Messengers', year:1958, youtubeId:'S7BKcCaFVgE',
+    personnel:{ trumpet:'Lee Morgan', tenor_sax:'Benny Golson', piano:'Bobby Timmons', bass:'Jymie Merritt', drums:'Art Blakey' }},
+  { title:'Free for All', album:'Free for All', leader:'Art Blakey & The Jazz Messengers', year:1964, youtubeId:'WHNvWjXCxaQ',
+    personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Wayne Shorter', piano:'Cedar Walton', bass:'Reggie Workman', drums:'Art Blakey' }},
+  { title:'A Night in Tunisia', album:'A Night in Tunisia', leader:'Art Blakey & The Jazz Messengers', year:1960, youtubeId:'nBCMWm7lPiE',
+    personnel:{ trumpet:'Lee Morgan', tenor_sax:'Wayne Shorter', piano:'Walter Davis Jr.', bass:'Jymie Merritt', drums:'Art Blakey' }},
+
+  /* ── CLIFFORD BROWN & MAX ROACH ───────────────────────── */
+  { title:'Joy Spring', album:'Study in Brown', leader:'Clifford Brown & Max Roach', year:1955, youtubeId:'nGHI4AAIYP0',
+    personnel:{ trumpet:'Clifford Brown', tenor_sax:'Harold Land', piano:'Richie Powell', bass:'George Morrow', drums:'Max Roach' }},
+  { title:'Daahoud', album:'Study in Brown', leader:'Clifford Brown & Max Roach', year:1955, youtubeId:'C-o_l9LFiGo',
+    personnel:{ trumpet:'Clifford Brown', tenor_sax:'Harold Land', piano:'Richie Powell', bass:'George Morrow', drums:'Max Roach' }},
+  { title:'What Is This Thing Called Love', album:'At Basin Street', leader:'Clifford Brown & Max Roach', year:1956, youtubeId:'Fgu3Hav_kEI',
+    personnel:{ trumpet:'Clifford Brown', tenor_sax:'Sonny Rollins', piano:'Richie Powell', bass:'George Morrow', drums:'Max Roach' }},
+  { title:'Cherokee', album:'Study in Brown', leader:'Clifford Brown & Max Roach', year:1955, youtubeId:'YuFkYuaGNvo',
+    personnel:{ trumpet:'Clifford Brown', tenor_sax:'Harold Land', piano:'Richie Powell', bass:'George Morrow', drums:'Max Roach' }},
+
+  /* ── SONNY ROLLINS ────────────────────────────────────── */
+  { title:'St. Thomas', album:'Saxophone Colossus', leader:'Sonny Rollins', year:1956, youtubeId:'oTNbOKOLkJg',
+    personnel:{ tenor_sax:'Sonny Rollins', piano:'Tommy Flanagan', bass:'Doug Watkins', drums:'Max Roach' }},
+  { title:'Strode Rode', album:'Saxophone Colossus', leader:'Sonny Rollins', year:1956, youtubeId:'rOB2FNRP6-g',
+    personnel:{ tenor_sax:'Sonny Rollins', piano:'Tommy Flanagan', bass:'Doug Watkins', drums:'Max Roach' }},
+  { title:'Blue 7', album:'Saxophone Colossus', leader:'Sonny Rollins', year:1956, youtubeId:'INSnbR2j7E8',
+    personnel:{ tenor_sax:'Sonny Rollins', piano:'Tommy Flanagan', bass:'Doug Watkins', drums:'Max Roach' }},
+  { title:'Moritat (Mack the Knife)', album:'Way Out West', leader:'Sonny Rollins', year:1957, youtubeId:'_yIaaM7DLUQ',
+    personnel:{ tenor_sax:'Sonny Rollins', bass:'Ray Brown', drums:'Shelly Manne' }},
+
+  /* ── LEE MORGAN ───────────────────────────────────────── */
+  { title:'The Sidewinder', album:'The Sidewinder', leader:'Lee Morgan', year:1963, youtubeId:'AjRFpOlmJZk',
+    personnel:{ trumpet:'Lee Morgan', tenor_sax:'Joe Henderson', piano:'Barry Harris', bass:'Bob Cranshaw', drums:'Billy Higgins' }},
+  { title:'Candy', album:'Candy', leader:'Lee Morgan', year:1957, youtubeId:'N8a0YZUIOPA',
+    personnel:{ trumpet:'Lee Morgan', tenor_sax:'Hank Mobley', piano:'Sonny Clark', bass:'Paul Chambers', drums:'Art Taylor' }},
+  { title:'Ceora', album:'Cornbread', leader:'Lee Morgan', year:1965, youtubeId:'GX9vMOe5Gi8',
+    personnel:{ trumpet:'Lee Morgan', tenor_sax:'Hank Mobley', piano:'Herbie Hancock', bass:'Larry Ridley', drums:'Billy Higgins' }},
+  { title:'Speedball', album:'Search for the New Land', leader:'Lee Morgan', year:1964, youtubeId:'HkDm9bqGPLc',
+    personnel:{ trumpet:'Lee Morgan', tenor_sax:'Wayne Shorter', piano:'Herbie Hancock', bass:'Reggie Workman', drums:'Billy Higgins' }},
+
+  /* ── HERBIE HANCOCK ───────────────────────────────────── */
+  { title:'Maiden Voyage', album:'Maiden Voyage', leader:'Herbie Hancock', year:1965, youtubeId:'mGiS2MtZCb0',
+    personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'George Coleman', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Tony Williams' }},
+  { title:'Dolphin Dance', album:'Maiden Voyage', leader:'Herbie Hancock', year:1965, youtubeId:'Cj3jBqVXL0A',
+    personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'George Coleman', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Tony Williams' }},
+  { title:'Watermelon Man', album:"Takin' Off", leader:'Herbie Hancock', year:1962, youtubeId:'oOsTHQYFo98',
+    personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Dexter Gordon', piano:'Herbie Hancock', bass:'Butch Warren', drums:'Billy Higgins' }},
+  { title:'One Finger Snap', album:'Empyrean Isles', leader:'Herbie Hancock', year:1964, youtubeId:'T9U0nLCWYlU',
+    personnel:{ trumpet:'Freddie Hubbard', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Tony Williams' }},
+
+  /* ── WAYNE SHORTER ────────────────────────────────────── */
+  { title:'Speak No Evil', album:'Speak No Evil', leader:'Wayne Shorter', year:1964, youtubeId:'Xg8n0QCp5j4',
+    personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Wayne Shorter', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Elvin Jones' }},
+  { title:'Infant Eyes', album:'Speak No Evil', leader:'Wayne Shorter', year:1964, youtubeId:'J2cS0FZRQHM',
+    personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Wayne Shorter', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Elvin Jones' }},
+  { title:'Fee-Fi-Fo-Fum', album:'Speak No Evil', leader:'Wayne Shorter', year:1964, youtubeId:'wNP0u3Zqig8',
+    personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Wayne Shorter', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Elvin Jones' }},
+  { title:'Witch Hunt', album:'Speak No Evil', leader:'Wayne Shorter', year:1964, youtubeId:'z1bEdJR78G4',
+    personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Wayne Shorter', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Elvin Jones' }},
+
+  /* ── JOE HENDERSON ────────────────────────────────────── */
+  { title:'Blue Bossa', album:'Page One', leader:'Joe Henderson', year:1963, youtubeId:'BYCr3SJRG4o',
+    personnel:{ trumpet:'Kenny Dorham', tenor_sax:'Joe Henderson', piano:'McCoy Tyner', bass:'Butch Warren', drums:'Pete La Roca' }},
+  { title:'Recorda Me', album:'Page One', leader:'Joe Henderson', year:1963, youtubeId:'h-TGd0QIHQc',
+    personnel:{ trumpet:'Kenny Dorham', tenor_sax:'Joe Henderson', piano:'McCoy Tyner', bass:'Butch Warren', drums:'Pete La Roca' }},
+  { title:'Inner Urge', album:'Inner Urge', leader:'Joe Henderson', year:1964, youtubeId:'TFNlJo8giqk',
+    personnel:{ tenor_sax:'Joe Henderson', piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Elvin Jones' }},
+
+  /* ── KENNY DORHAM ─────────────────────────────────────── */
+  { title:'Una Mas', album:'Una Mas', leader:'Kenny Dorham', year:1963, youtubeId:'mGWlSEHJWaA',
+    personnel:{ trumpet:'Kenny Dorham', tenor_sax:'Joe Henderson', piano:'Herbie Hancock', bass:'Butch Warren', drums:'Tony Williams' }},
+
+  /* ── GRANT GREEN ──────────────────────────────────────── */
+  { title:'Idle Moments', album:'Idle Moments', leader:'Grant Green', year:1963, youtubeId:'ZRxWIkTNAzM',
+    personnel:{ guitar:'Grant Green', tenor_sax:'Joe Henderson', vibraphone:'Bobby Hutcherson', piano:'Duke Pearson', bass:'Bob Cranshaw', drums:'Al Harewood' }},
+  { title:'Matador', album:'Matador', leader:'Grant Green', year:1964, youtubeId:'bVW0KBrFWIc',
+    personnel:{ guitar:'Grant Green', piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Elvin Jones' }},
+
+  /* ── HORACE SILVER ────────────────────────────────────── */
+  { title:'Song for My Father', album:'Song for My Father', leader:'Horace Silver', year:1964, youtubeId:'XGMzmRKJdJM',
+    personnel:{ trumpet:'Carmell Jones', tenor_sax:'Joe Henderson', piano:'Horace Silver', bass:'Teddy Smith', drums:'Roger Humphries' }},
+  { title:"Blowin' the Blues Away", album:"Blowin' the Blues Away", leader:'Horace Silver', year:1959, youtubeId:'fEJF4lYVqnA',
+    personnel:{ trumpet:'Blue Mitchell', tenor_sax:'Junior Cook', piano:'Horace Silver', bass:'Gene Taylor', drums:'Louis Hayes' }},
+  { title:'Senor Blues', album:'6 Pieces of Silver', leader:'Horace Silver', year:1956, youtubeId:'vr3GsvLBVYM',
+    personnel:{ trumpet:'Donald Byrd', tenor_sax:'Hank Mobley', piano:'Horace Silver', bass:'Doug Watkins', drums:'Art Taylor' }},
+
+  /* ── ORNETTE COLEMAN ──────────────────────────────────── */
+  { title:'Lonely Woman', album:'The Shape of Jazz to Come', leader:'Ornette Coleman', year:1959, youtubeId:'P4R21zNIjkc',
+    personnel:{ alto_sax:'Ornette Coleman', cornet:'Don Cherry', bass:'Charlie Haden', drums:'Billy Higgins' }},
+  { title:'Peace', album:'The Shape of Jazz to Come', leader:'Ornette Coleman', year:1959, youtubeId:'e2PXzVXJSw8',
+    personnel:{ alto_sax:'Ornette Coleman', cornet:'Don Cherry', bass:'Charlie Haden', drums:'Billy Higgins' }},
+  { title:'Congeniality', album:'The Shape of Jazz to Come', leader:'Ornette Coleman', year:1959, youtubeId:'r38PPiMGGOk',
+    personnel:{ alto_sax:'Ornette Coleman', cornet:'Don Cherry', bass:'Charlie Haden', drums:'Billy Higgins' }},
+
+  /* ── WES MONTGOMERY ───────────────────────────────────── */
+  { title:'West Coast Blues', album:'The Incredible Jazz Guitar of Wes Montgomery', leader:'Wes Montgomery', year:1960, youtubeId:'oNFIi40e2UE',
+    personnel:{ guitar:'Wes Montgomery', piano:'Tommy Flanagan', bass:'Percy Heath', drums:'Albert Heath' }},
+  { title:'Four on Six', album:'The Incredible Jazz Guitar of Wes Montgomery', leader:'Wes Montgomery', year:1960, youtubeId:'b57EFCfITxQ',
+    personnel:{ guitar:'Wes Montgomery', piano:'Tommy Flanagan', bass:'Percy Heath', drums:'Albert Heath' }},
+  { title:'D-Natural Blues', album:'The Incredible Jazz Guitar of Wes Montgomery', leader:'Wes Montgomery', year:1960, youtubeId:'sS9r9_fUgXM',
+    personnel:{ guitar:'Wes Montgomery', piano:'Tommy Flanagan', bass:'Percy Heath', drums:'Albert Heath' }},
+
+  /* ── DAVE BRUBECK ─────────────────────────────────────── */
+  { title:'Take Five', album:'Time Out', leader:'Dave Brubeck', year:1959, youtubeId:'vmDDOFXSgAs',
+    personnel:{ alto_sax:'Paul Desmond', piano:'Dave Brubeck', bass:'Eugene Wright', drums:'Joe Morello' }},
+  { title:'Blue Rondo a la Turk', album:'Time Out', leader:'Dave Brubeck', year:1959, youtubeId:'JMETnDhQ3EU',
+    personnel:{ alto_sax:'Paul Desmond', piano:'Dave Brubeck', bass:'Eugene Wright', drums:'Joe Morello' }},
+
+  /* ── THELONIOUS MONK ──────────────────────────────────── */
+  { title:"Monk's Dream", album:"Monk's Dream", leader:'Thelonious Monk', year:1963, youtubeId:'PGFzD7ZpBrY',
+    personnel:{ piano:'Thelonious Monk', tenor_sax:'Charlie Rouse', bass:'John Ore', drums:'Frankie Dunlop' }},
+  { title:'Straight, No Chaser', album:"Monk's Dream", leader:'Thelonious Monk', year:1963, youtubeId:'73q2MtmfOHg',
+    personnel:{ piano:'Thelonious Monk', tenor_sax:'Charlie Rouse', bass:'John Ore', drums:'Frankie Dunlop' }},
+  { title:'Blue Monk', album:'Thelonious Monk Trio', leader:'Thelonious Monk', year:1954, youtubeId:'R-nCIqW2VRk',
+    personnel:{ piano:'Thelonious Monk', bass:'Percy Heath', drums:'Art Blakey' }},
+  { title:'Ruby, My Dear', album:'Thelonious Himself', leader:'Thelonious Monk', year:1957, youtubeId:'1Mzd50vL1Yc',
+    personnel:{ piano:'Thelonious Monk' }},
+
+  /* ── HANK MOBLEY ──────────────────────────────────────── */
+  { title:'This I Dig of You', album:'Soul Station', leader:'Hank Mobley', year:1960, youtubeId:'ew1Xnq3BkEU',
+    personnel:{ tenor_sax:'Hank Mobley', piano:'Wynton Kelly', bass:'Paul Chambers', drums:'Art Blakey' }},
+  { title:'Remember', album:'Soul Station', leader:'Hank Mobley', year:1960, youtubeId:'9TglVr_8QZk',
+    personnel:{ tenor_sax:'Hank Mobley', piano:'Wynton Kelly', bass:'Paul Chambers', drums:'Art Blakey' }},
+
+  /* ── DEXTER GORDON ────────────────────────────────────── */
+  { title:'Cheese Cake', album:'Go!', leader:'Dexter Gordon', year:1962, youtubeId:'sSOgNgkgzLc',
+    personnel:{ tenor_sax:'Dexter Gordon', piano:'Sonny Clark', bass:'Butch Warren', drums:'Billy Higgins' }},
+  { title:'Society Red', album:'Go!', leader:'Dexter Gordon', year:1962, youtubeId:'KBo3L6ZoIFI',
+    personnel:{ tenor_sax:'Dexter Gordon', piano:'Sonny Clark', bass:'Butch Warren', drums:'Billy Higgins' }},
+
+  /* ── SONNY CLARK ──────────────────────────────────────── */
+  { title:"Cool Struttin'", album:"Cool Struttin'", leader:'Sonny Clark', year:1958, youtubeId:'OV0-mD0hFPE',
+    personnel:{ trumpet:'Art Farmer', alto_sax:'Jackie McLean', piano:'Sonny Clark', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
+
+  /* ── CANNONBALL ADDERLEY ──────────────────────────────── */
+  { title:'Autumn Leaves', album:"Somethin' Else", leader:'Cannonball Adderley', year:1958, youtubeId:'b-iPSzUFMbc',
+    personnel:{ alto_sax:'Cannonball Adderley', trumpet:'Miles Davis', piano:'Hank Jones', bass:'Sam Jones', drums:'Art Blakey' }},
+  { title:"Somethin' Else", album:"Somethin' Else", leader:'Cannonball Adderley', year:1958, youtubeId:'tG97xkqmD2U',
+    personnel:{ alto_sax:'Cannonball Adderley', trumpet:'Miles Davis', piano:'Hank Jones', bass:'Sam Jones', drums:'Art Blakey' }},
+  { title:'Work Song', album:'The Cannonball Adderley Quintet in San Francisco', leader:'Cannonball Adderley', year:1959, youtubeId:'kU3Ey7A35Ow',
+    personnel:{ alto_sax:'Cannonball Adderley', cornet:'Nat Adderley', piano:'Bobby Timmons', bass:'Sam Jones', drums:'Louis Hayes' }},
+  { title:'Mercy, Mercy, Mercy', album:'Mercy, Mercy, Mercy!', leader:'Cannonball Adderley', year:1966, youtubeId:'73FpYnZu_nU',
+    personnel:{ alto_sax:'Cannonball Adderley', cornet:'Nat Adderley', piano:'Joe Zawinul', bass:'Victor Gaskin', drums:'Roy McCurdy' }},
+
+  /* ── KENNY BURRELL ────────────────────────────────────── */
+  { title:'Chitlins con Carne', album:'Midnight Blue', leader:'Kenny Burrell', year:1963, youtubeId:'tnRQnAfmRQE',
+    personnel:{ guitar:'Kenny Burrell', tenor_sax:'Stanley Turrentine', bass:'Major Holley', drums:'Bill English' }},
+  { title:'Midnight Blue', album:'Midnight Blue', leader:'Kenny Burrell', year:1963, youtubeId:'zFdW0a-Y8R4',
+    personnel:{ guitar:'Kenny Burrell', tenor_sax:'Stanley Turrentine', bass:'Major Holley', drums:'Bill English' }},
+
+  /* ── JIMMY SMITH ──────────────────────────────────────── */
+  { title:'The Sermon', album:'The Sermon!', leader:'Jimmy Smith', year:1958, youtubeId:'BF-gVBEUGw0',
+    personnel:{ organ:'Jimmy Smith', trumpet:'Donald Byrd', alto_sax:'Lou Donaldson', tenor_sax:'Tina Brooks', guitar:'Kenny Burrell', drums:'Art Blakey' }},
+  { title:'Back at the Chicken Shack', album:'Back at the Chicken Shack', leader:'Jimmy Smith', year:1960, youtubeId:'b7YECsZLmL0',
+    personnel:{ organ:'Jimmy Smith', tenor_sax:'Stanley Turrentine', guitar:'Kenny Burrell', drums:'Donald Bailey' }},
+
+  /* ── FREDDIE HUBBARD ──────────────────────────────────── */
+  { title:'Ready for Freddie', album:'Ready for Freddie', leader:'Freddie Hubbard', year:1961, youtubeId:'RoaHixNJSBs',
+    personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Wayne Shorter', piano:'McCoy Tyner', bass:'Art Davis', drums:'Elvin Jones' }},
+
+  /* ── CHARLES MINGUS ───────────────────────────────────── */
+  { title:'Goodbye Pork Pie Hat', album:'Mingus Ah Um', leader:'Charles Mingus', year:1959, youtubeId:'wWgtTI-1M_4',
+    personnel:{ alto_sax:'John Handy', tenor_sax:'Booker Ervin', piano:'Horace Parlan', bass:'Charles Mingus', drums:'Dannie Richmond' }},
+  { title:'Better Git It in Your Soul', album:'Mingus Ah Um', leader:'Charles Mingus', year:1959, youtubeId:'n9JMNhF7SiI',
+    personnel:{ alto_sax:'John Handy', tenor_sax:'Booker Ervin', piano:'Horace Parlan', bass:'Charles Mingus', drums:'Dannie Richmond' }},
+  { title:'Fables of Faubus', album:'Mingus Ah Um', leader:'Charles Mingus', year:1959, youtubeId:'6-Gik0cE7Gk',
+    personnel:{ alto_sax:'John Handy', tenor_sax:'Booker Ervin', piano:'Horace Parlan', bass:'Charles Mingus', drums:'Dannie Richmond' }},
+
+  /* ── CHET BAKER ───────────────────────────────────────── */
+  { title:'My Funny Valentine', album:'Chet Baker Sings', leader:'Chet Baker', year:1954, youtubeId:'0wlbPAqeRUw',
+    personnel:{ trumpet:'Chet Baker', piano:'Russ Freeman', bass:'Carson Smith', drums:'Bob Neel' }},
+  { title:'But Not for Me', album:'Chet Baker Sings', leader:'Chet Baker', year:1954, youtubeId:'HsKGvBcQI5Q',
+    personnel:{ trumpet:'Chet Baker', piano:'Russ Freeman', bass:'Carson Smith', drums:'Bob Neel' }},
+
+  /* ── ERIC DOLPHY ──────────────────────────────────────── */
+  { title:'Out to Lunch', album:'Out to Lunch!', leader:'Eric Dolphy', year:1964, youtubeId:'ZkClMVPJPNs',
+    personnel:{ alto_sax:'Eric Dolphy', trumpet:'Freddie Hubbard', vibraphone:'Bobby Hutcherson', bass:'Richard Davis', drums:'Tony Williams' }},
+  { title:'Hat and Beard', album:'Out to Lunch!', leader:'Eric Dolphy', year:1964, youtubeId:'U42NtXMqt_U',
+    personnel:{ alto_sax:'Eric Dolphy', trumpet:'Freddie Hubbard', vibraphone:'Bobby Hutcherson', bass:'Richard Davis', drums:'Tony Williams' }},
+
+  /* ── MJQ ──────────────────────────────────────────────── */
+  { title:'Django', album:'Fontessa', leader:'Modern Jazz Quartet', year:1956, youtubeId:'RJnOZHkBwLg',
+    personnel:{ vibraphone:'Milt Jackson', piano:'John Lewis', bass:'Percy Heath', drums:'Kenny Clarke' }},
+
+  /* ── ANDREW HILL ──────────────────────────────────────── */
+  { title:'Smoke Stack', album:'Point of Departure', leader:'Andrew Hill', year:1964, youtubeId:'gp3-iyYBMoU',
+    personnel:{ trumpet:'Kenny Dorham', alto_sax:'Eric Dolphy', tenor_sax:'Joe Henderson', piano:'Andrew Hill', bass:'Richard Davis', drums:'Tony Williams' }},
+
+]; /* end songs */
