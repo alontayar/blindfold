@@ -99,7 +99,7 @@ const songs = [
     personnel:{ piano:'Thelonious Monk', tenor_sax:'John Coltrane', bass:'Wilbur Ware', drums:'Shadow Wilson' }},
 
   /* ── BILL EVANS ───────────────────────────────────────── */
-  { title:'Waltz for Debby', album:'Waltz for Debby', leader:'Bill Evans', year:1961, youtubeId:'b1HPfpfekXE',
+  { title:'Waltz for Debby', album:'Waltz for Debby', leader:'Bill Evans', year:1961, youtubeId:'wCINvavqFXk',
     personnel:{ piano:'Bill Evans', bass:'Scott LaFaro', drums:'Paul Motian' }},
   { title:'My Foolish Heart', album:'Waltz for Debby', leader:'Bill Evans', year:1961, youtubeId:'sKbOMDGTQpc',
     personnel:{ piano:'Bill Evans', bass:'Scott LaFaro', drums:'Paul Motian' }},
