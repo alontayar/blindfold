@@ -139,19 +139,40 @@ window.onYouTubeIframeAPIReady = function() {
   if (currentSong && currentSong.youtubeId) createPlayer(currentSong.youtubeId);
 };
 
+function setVideoError(msg) {
+  document.getElementById('coverLabel').textContent = msg;
+  document.getElementById('playBtn').disabled = true;
+}
+
 function createPlayer(videoId) {
   if (!videoId) return;
-  if (ytPlayer) { ytPlayer.loadVideoById(videoId); ytPlayer.stopVideo(); isPlaying=false; return; }
+  if (location.protocol === 'file:') {
+    setVideoError('Open via a web server to enable video');
+    return;
+  }
+  if (ytPlayer) {
+    document.getElementById('playBtn').disabled = false;
+    ytPlayer.loadVideoById(videoId); ytPlayer.stopVideo(); isPlaying=false; return;
+  }
   ytPlayer = new YT.Player('ytPlayerDiv', {
     videoId,
-    playerVars:{ rel:0, modestbranding:1, iv_load_policy:3 },
-    events:{ onStateChange(e) {
-      const playing = e.data === YT.PlayerState.PLAYING;
-      setEq(playing);
-      document.getElementById('coverLabel').textContent = playing ? 'Listening blind' : 'Paused';
-      document.getElementById('playBtn').textContent    = playing ? '❚❚ Pause' : '▶ Play Track';
-      isPlaying = playing;
-    }}
+    playerVars:{ rel:0, iv_load_policy:3, origin: location.origin },
+    events:{
+      onStateChange(e) {
+        const playing = e.data === YT.PlayerState.PLAYING;
+        setEq(playing);
+        document.getElementById('coverLabel').textContent = playing ? 'Listening blind' : 'Paused';
+        document.getElementById('playBtn').textContent    = playing ? '❚❚ Pause' : '▶ Play Track';
+        isPlaying = playing;
+      },
+      onError(e) {
+        const msg = (e.data === 100) ? 'Video not found on YouTube' :
+                    (e.data === 101 || e.data === 150) ? 'Embedding disabled for this video' :
+                    'Video unavailable';
+        setVideoError(msg);
+        document.getElementById('playBtn').disabled = true;
+      }
+    }
   });
 }
 
@@ -190,6 +211,7 @@ function loadNextTrack() {
   document.getElementById('vidToggleBtn').textContent='Show Video';
   document.getElementById('coverLabel').textContent='Ready to play';
   document.getElementById('playBtn').textContent='▶ Play Track';
+  document.getElementById('playBtn').disabled=false;
   setEq(false);
 
   let pool = songs.filter(s=>!shownIds.has(s.title+s.year));
