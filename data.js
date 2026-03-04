@@ -27,7 +27,7 @@ const POOLS = {
   cornet:['Don Cherry','Nat Adderley','Clark Terry','Thad Jones','Bobby Bradford','Ruby Braff'],
   flugelhorn:['Art Farmer','Miles Davis','Clark Terry','Freddie Hubbard','Thad Jones','Chet Baker'],
   soprano_sax:['John Coltrane','Steve Lacy','Sidney Bechet','Wayne Shorter','Roland Kirk'],
-  alto_sax:['Cannonball Adderley','Lee Konitz','Phil Woods','Jackie McLean','Art Pepper','Sonny Stitt','Paul Desmond','Eric Dolphy','Charlie Parker','Ornette Coleman','John Handy','Frank Strozier','Gigi Gryce','Lou Donaldson','Charles McPherson' 'Gary Bartz'],
+  alto_sax:['Cannonball Adderley','Lee Konitz','Phil Woods','Jackie McLean','Art Pepper','Sonny Stitt','Paul Desmond','Eric Dolphy','Charlie Parker','Ornette Coleman','John Handy','Frank Strozier','Gigi Gryce','Lou Donaldson','Charles McPherson', 'Gary Bartz'],
   tenor_sax:['John Coltrane','Sonny Rollins','Joe Henderson','Wayne Shorter','Hank Mobley','Dexter Gordon','Johnny Griffin','Benny Golson','Booker Ervin','Stanley Turrentine','Clifford Jordan','Jimmy Heath','Harold Land','Warne Marsh','Zoot Sims','Tina Brooks','Junior Cook','Charlie Rouse','George Coleman','Lucky Thompson'],
   baritone_sax:['Pepper Adams','Gerry Mulligan','Harry Carney','Lars Gullin','Cecil Payne'],
   trombone:['J.J. Johnson','Curtis Fuller','Slide Hampton','Frank Rosolino','Jimmy Knepper','Grachan Moncur III','Julian Priester','Willie Dennis','Kai Winding','Bob Brookmeyer'],
