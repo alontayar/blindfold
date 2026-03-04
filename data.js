@@ -194,7 +194,7 @@ const songs = [
   { title:"Blowin' the Blues Away", album:"Blowin' the Blues Away", leader:'Horace Silver', year:1959, youtubeId:'9aOpQMpcybQ',
     personnel:{ trumpet:'Blue Mitchell', tenor_sax:'Junior Cook', piano:'Horace Silver', bass:'Gene Taylor', drums:'Louis Hayes' }},
   { title:'Senor Blues', album:'6 Pieces of Silver', leader:'Horace Silver', year:1956, youtubeId:'yKWphXfIsxs',
-    personnel:{ trumpet:'Donald Byrd', tenor_sax:'Hank Mobley', piano:'Horace Silver', bass:'Doug Watkins', drums:'Art Taylor' }},
+    personnel:{ trumpet:'Donald Byrd', tenor_sax:'Hank Mobley', piano:'Horace Silver', bass:'Doug Watkins', drums:'Louis Hayes' }},
 
   /* ── ORNETTE COLEMAN ──────────────────────────────────── */
   { title:'Lonely Woman', album:'The Shape of Jazz to Come', leader:'Ornette Coleman', year:1959, youtubeId:'OIIyCOAByDU',
