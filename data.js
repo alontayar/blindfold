@@ -266,7 +266,7 @@ const songs = [
   { title:'Refuge', album:'Point of Departure', leader:'Andrew Hill', year:1964, youtubeId:'dYZcjrydVt0',
     personnel:{ trumpet:'Kenny Dorham', alto_sax:'Eric Dolphy', tenor_sax:'Joe Henderson', piano:'Andrew Hill', bass:'Richard Davis', drums:'Tony Williams' }},
    
-     { title:'Pumpkin', album:'Black Fire', leader:'Andrew Hill', year:1963, youtubeId:'zHkDNZkjquQ',
+     { title:'Land Of Nod', album:'Black Fire', leader:'Andrew Hill', year:1963, youtubeId:'wI7nzKI0WIU',
     personnel:{ tenor_sax:'Joe Henderson', piano:'Andrew Hill', bass:'Richard Davis', drums:'Roy Haynes' }},
 
   { title:'Siete Ocho', album:'Judgment!', leader:'Andrew Hill', year:1964, youtubeId:'rkzazhbDUw8',
@@ -400,6 +400,6 @@ const songs = [
     personnel:{ piano:'Phineas Newborn Jr.', bass:'Ray Brown', drums:'Elvin Jones' }},
 
   { title:'Ray\'s Idea', album:'Harlem Blues', leader:'Phineas Newborn Jr.', year:1959, youtubeId:'UuV1raguNWA',
-    personnel:{ piano:'Phineas Newborn Jr.', bass:'Ray Brown', drums:'Elvin Jones' }},,
+    personnel:{ piano:'Phineas Newborn Jr.', bass:'Ray Brown', drums:'Elvin Jones' }},
 
 ]; /* end songs */
