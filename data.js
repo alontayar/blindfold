@@ -23,20 +23,20 @@ const INSTR_LABEL = {
 };
 
 const POOLS = {
-  trumpet:['Miles Davis','Clifford Brown','Lee Morgan','Freddie Hubbard','Chet Baker','Kenny Dorham','Art Farmer','Donald Byrd','Woody Shaw','Blue Mitchell','Clark Terry','Dizzy Gillespie','Fats Navarro','Booker Little','Thad Jones','Nat Adderley','Ted Curson','Bill Hardman','Johnny Coles','Carmell Jones'],
+  trumpet:['Miles Davis','Clifford Brown','Lee Morgan','Freddie Hubbard','Chet Baker','Kenny Dorham','Art Farmer','Donald Byrd','Woody Shaw','Blue Mitchell','Clark Terry','Dizzy Gillespie','Fats Navarro','Booker Little','Thad Jones','Nat Adderley','Ted Curson','Bill Hardman','Charles Tolliver', 'Johnny Coles','Carmell Jones'],
   cornet:['Don Cherry','Nat Adderley','Clark Terry','Thad Jones','Bobby Bradford','Ruby Braff'],
   flugelhorn:['Art Farmer','Miles Davis','Clark Terry','Freddie Hubbard','Thad Jones','Chet Baker'],
   soprano_sax:['John Coltrane','Steve Lacy','Sidney Bechet','Wayne Shorter','Roland Kirk'],
-  alto_sax:['Cannonball Adderley','Lee Konitz','Phil Woods','Jackie McLean','Art Pepper','Sonny Stitt','Paul Desmond','Eric Dolphy','Charlie Parker','Ornette Coleman','John Handy','Frank Strozier','Gigi Gryce','Lou Donaldson','Charles McPherson','Hank Crawford'],
+  alto_sax:['Cannonball Adderley','Lee Konitz','Phil Woods','Jackie McLean','Art Pepper','Sonny Stitt','Paul Desmond','Eric Dolphy','Charlie Parker','Ornette Coleman','John Handy','Frank Strozier','Gigi Gryce','Lou Donaldson','Charles McPherson','Hank Crawford', 'Gary Bartz'],
   tenor_sax:['John Coltrane','Sonny Rollins','Joe Henderson','Wayne Shorter','Hank Mobley','Dexter Gordon','Johnny Griffin','Benny Golson','Booker Ervin','Stanley Turrentine','Clifford Jordan','Jimmy Heath','Harold Land','Warne Marsh','Zoot Sims','Tina Brooks','Junior Cook','Charlie Rouse','George Coleman','Lucky Thompson','Yusef Lateef'],
   baritone_sax:['Pepper Adams','Gerry Mulligan','Harry Carney','Lars Gullin','Cecil Payne'],
   trombone:['J.J. Johnson','Curtis Fuller','Slide Hampton','Frank Rosolino','Jimmy Knepper','Grachan Moncur III','Julian Priester','Willie Dennis','Kai Winding','Bob Brookmeyer'],
   guitar:['Wes Montgomery','Grant Green','Jim Hall','Kenny Burrell','Joe Pass','Barney Kessel','Herb Ellis','Jimmy Raney','Tal Farlow','Gabor Szabo'],
   vibraphone:['Milt Jackson','Bobby Hutcherson','Gary Burton','Red Norvo','Victor Feldman','Eddie Costa','Lem Winchester','Cal Tjader','Walt Dickerson'],
-  piano:['Bill Evans','Paul Bley', 'Harold Mabern', 'Red Garland','Wynton Kelly','Herbie Hancock','McCoy Tyner','Tommy Flanagan','Barry Harris','Cedar Walton','Bobby Timmons','Horace Silver','Thelonious Monk','Bud Powell','Hank Jones','Ahmad Jamal','Oscar Peterson','Duke Pearson','Richie Powell','Walter Davis Jr.','Sonny Clark','Mal Waldron','Kenny Drew','Herbie Nichols', 'Roland Hanna','Andrew Hill','Jaki Byard','Joe Zawinul','Elmo Hope','Ray Bryant','Junior Mance','Dave Brubeck','Horace Parlan','Duke Jordan','Duke Pearson', 'Russ Freeman'],
+  piano:['Bill Evans','Paul Bley', 'Harold Mabern', 'Red Garland','Wynton Kelly','Herbie Hancock','McCoy Tyner','Tommy Flanagan','Barry Harris','Cedar Walton','Bobby Timmons','Horace Silver','Thelonious Monk','Bud Powell','Hank Jones','Ahmad Jamal','Stanley Cowell', 'Victor Feldman', 'Oscar Peterson','Duke Pearson','Richie Powell','Walter Davis Jr.','Sonny Clark','Mal Waldron','Kenny Drew','Herbie Nichols', 'Roland Hanna', 'Andrew Hill','Jaki Byard','Joe Zawinul','Elmo Hope','Ray Bryant','Junior Mance','Dave Brubeck','Horace Parlan','Duke Jordan','Duke Pearson', 'Russ Freeman'],
   organ:['Jimmy Smith','Jack McDuff','Larry Young','Shirley Scott','Don Patterson','Charles Earland','Jimmy McGriff','Big John Patton'],
-  bass:['Paul Chambers','Laymon Jackson', 'Scott LaFaro','Ron Carter','Jimmy Garrison','Charlie Haden','Ray Brown','Percy Heath','Wilbur Ware','Reggie Workman','Bob Cranshaw','Sam Jones','Doug Watkins','Oscar Pettiford','George Morrow','Jymie Merritt','NHØP', 'Butch Warren','Richard Davis','Teddy Smith','Steve Davis','Art Davis','Leroy Vinnegar','Chuck Israels','Major Holley','Gene Taylor','Henry Grimes','Gary Peacock','Carson Smith','Charles Mingus'],
-  drums:['Jimmy Cobb','Philly Joe Jones','Tony Williams','Max Roach','Art Blakey','Elvin Jones','Paul Motian','Roy Haynes','Billy Higgins','Ed Thigpen','Albert Heath','Pete La Roca','Joe Morello','Frankie Dunlop','Ben Riley','Dannie Richmond','Roger Humphries','Shadow Wilson','Art Taylor','Louis Hayes','Charlie Persip','Mickey Roker','Kenny Clarke','Lex Humphries','Bill English','Bob Neel','Al Harewood','Mel Lewis', 'Jørn Elniff'],
+  bass:['Paul Chambers','Laymon Jackson', 'Scott LaFaro','Ron Carter','Jimmy Garrison','Charlie Haden','Ray Brown','Percy Heath','Wilbur Ware','Reggie Workman','Bob Cranshaw','Sam Jones','Doug Watkins','Oscar Pettiford','George Morrow','Jymie Merritt','NHØP', 'Butch Warren','Richard Davis', 'Chuck Isreals', 'Reggie Johnson', 'Teddy Smith','Steve Davis','Art Davis','Leroy Vinnegar','Chuck Israels','Major Holley','Gene Taylor','Henry Grimes','Gary Peacock', 'Carson Smith','Charles Mingus'],
+  drums:['Jimmy Cobb','Philly Joe Jones','Tony Williams','Max Roach','Art Blakey','Elvin Jones','Paul Motian','Roy Haynes','Billy Higgins','Ed Thigpen','Albert Heath','Pete LaRoca','Joe Morello','Frankie Dunlop','Ben Riley','Dannie Richmond','Roger Humphries','Shadow Wilson','Art Taylor','Louis Hayes','Charlie Persip','Mickey Roker','Kenny Clarke','Lex Humphries','Bill English','Bob Neel','Al Harewood','Mel Lewis', 'Jørn Elniff'],
   voice:["Billie Holiday","Sarah Vaughan","Ella Fitzgerald","Carmen McRae","Betty Carter","Abbey Lincoln","Nina Simone","Shirley Horn","Anita O'Day","Chris Connor"]
 };
 
@@ -172,9 +172,9 @@ const songs = [
 
   /* ── JOE HENDERSON ────────────────────────────────────── */
   { title:'Blue Bossa', album:'Page One', leader:'Joe Henderson', year:1963, youtubeId:'EUxv3AAaK_Y',
-    personnel:{ trumpet:'Kenny Dorham', tenor_sax:'Joe Henderson', piano:'McCoy Tyner', bass:'Butch Warren', drums:'Pete La Roca' }},
+    personnel:{ trumpet:'Kenny Dorham', tenor_sax:'Joe Henderson', piano:'McCoy Tyner', bass:'Butch Warren', drums:'Pete LaRoca' }},
   { title:'Recorda Me', album:'Page One', leader:'Joe Henderson', year:1963, youtubeId:'3c9zSAVWKEs',
-    personnel:{ trumpet:'Kenny Dorham', tenor_sax:'Joe Henderson', piano:'McCoy Tyner', bass:'Butch Warren', drums:'Pete La Roca' }},
+    personnel:{ trumpet:'Kenny Dorham', tenor_sax:'Joe Henderson', piano:'McCoy Tyner', bass:'Butch Warren', drums:'Pete LaRoca' }},
   { title:'Inner Urge', album:'Inner Urge', leader:'Joe Henderson', year:1964, youtubeId:'dYxgci2uPno',
     personnel:{ tenor_sax:'Joe Henderson', piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Elvin Jones' }},
 
@@ -327,5 +327,79 @@ const songs = [
 
   { title:'Out Front', album:'Out Front!', leader:'Jaki Byard', year:1961, youtubeId:'jmf-RUNiRNA',
     personnel:{ piano:'Jaki Byard', bass:'Bob Cranshaw', drums:'Walter Perkins' }},
+
+
+
+
+
+
+
+
+
+  { title:'What Is This Thing Called Love?', album:'Portrait in Jazz', leader:'Bill Evans', year:1959, youtubeId:'8WMUZ6nixvQ',
+    personnel:{ piano:'Bill Evans', bass:'Scott LaFaro', drums:'Paul Motian' }},
+
+  { title:'Oleo', album:'Bags Groove', leader:'Miles Davis', year:1954, youtubeId:'RJUZroNIbYM',
+    personnel:{ trumpet:'Miles Davis', tenor_sax:'Sonny Rollins', piano:'Horace Silver', bass:'Percy Heath', drums:'Kenny Clarke' }},
+
+  { title:'Gone With The Wind', album:'Classic Early Solos (1934-1937)', leader:'Art Tatum', year:1937, youtubeId:'mEvMexhGwyQ',
+    personnel:{ piano:'Art Tatum' }},
+
+  { title:'The Way You Look Tonight', album:'The Art Tatum Solo Masterpieces Vol.6', leader:'Art Tatum', year:1953, youtubeId:'32BUn-uLzps',
+    personnel:{ piano:'Art Tatum' }},
+
+  { title:'The Song Is You', album:'A Jazz Message', leader:'Art Blakey', year:1963, youtubeId:'goARAX_9fMU',
+    personnel:{ alto_sax:'Sonny Stitt', piano:'McCoy Tyner', bass:'Art Davis', drums:'Art Blakey' }},
+
+  { title:'Jodo', album:'Blue Spirits', leader:'Freddie Hubbard', year:1965, youtubeId:'Qwe3qpK1VhI',
+    personnel:{ trumpet:'Freddie Hubbard', alto_sax:'James Spaulding', tenor_sax:'Hank Mobley', piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Pete LaRoca' }},
+
+  { title:'Nite Flite', album:'Delightfulee', leader:'Lee Morgan', year:1966, youtubeId:'r9jhoHC1wlU',
+    personnel:{ trumpet:'Lee Morgan', tenor_sax:'Joe Henderson', piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Billy Higgins' }},
+
+  { title:'You\'d Be So Nice To Come Home To', album:'Motion', leader:'Lee Konitz', year:1961, youtubeId:'xToLJrqAkW0',
+    personnel:{ alto_sax:'Lee Konitz', bass:'Sonny Dallas', drums:'Elvin Jones' }},
+
+  { title:'Just Friends', album:'Coltrane Time', leader:'John Coltrane', year:1958, youtubeId:'ujiNUzvWid8',
+    personnel:{ tenor_sax:'John Coltrane', trumpet: 'Kenny Dorham', piano:'Cecil Taylor', bass:'Chuck Isreals', drums:'Louis Hayes' }},
+
+  { title:'Like Someone In Love', album:'Coltrane Time', leader:'John Coltrane', year:1958, youtubeId:'yB9Ho9UY7pU',
+    personnel:{ tenor_sax:'John Coltrane', trumpet: 'Kenny Dorham', piano:'Cecil Taylor', bass:'Chuck Isreals', drums:'Louis Hayes' }},
+
+  { title:'On The Trail', album:'Four!', leader:'Joe Henderson', year:1968, youtubeId:'uGFqtChmFr0',
+    personnel:{ tenor_sax:'Joe Henderson', piano:'Wynton Kelly', bass:'Paul Chambers', drums:'Jimmy Cobb' }},
+
+  { title:'Philly Mignon', album:'Here To Stay', leader:'Freddie Hubbard', year:1962, youtubeId:'DOlkaWNocVw',
+    personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Wayne Shorter', piano:'Cedar Walton', bass:'Reggie Workman', drums:'Philly Joe Jones' }},
+
+  { title:'Visions', album:'Medina & Spiral', leader:'Bobby Hutcherson', year:1968, youtubeId:'zSGm28sdHqg',
+    personnel:{ vibraphone:'Bobby Hutcherson', piano:'Harold Land', bass:'Reggie Johnson', drums:'Joe Chambers' }},
+
+  { title:'Spiral', album:'Medina & Spiral', leader:'Bobby Hutcherson', year:1968, youtubeId:'J_Xkbm_IfZo',
+    personnel:{ vibraphone:'Bobby Hutcherson', piano:'Harold Land', bass:'Reggie Johnson', drums:'Joe Chambers' }},
+
+  { title:'Equipoise', album:'Members Don\'t Get Weary', leader:'Max Roach', year:1968, youtubeId:'YJVL5uRDTrM',
+    personnel:{ drums:'Max Roach', trumpet:'Charles Tolliver', alto_sax:'Gary Bartz', piano:'Stanley Cowell', bass:'Jymie Merritt' }},
+
+  { title:'Earl\'s World', album:'Paper Man', leader:'Charles Tolliver', year:1968, youtubeId:'nB7RGyIHc6E',
+    personnel:{ trumpet:'Charles Tolliver', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Joe Chambers' }},
+
+  { title:'Peace With Myself', album:'Paper Man', leader:'Charles Tolliver', year:1968, youtubeId:'0Dvy2Q6n7Ug',
+    personnel:{ trumpet:'Charles Tolliver', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Joe Chambers' }},
+
+  { title:'Jorgie\'s', album:'Royal Flush', leader:'Donald Byrd', year:1961, youtubeId:'Nm25w0w0hhM',
+    personnel:{ trumpet:'Donald Byrd', baritone_sax:'Pepper Adams', piano:'Herbie Hancock', bass:'Butch Warren', drums:'Billy Higgins' }},
+
+  { title:'Chordially', album:'London Collection Vol.3', leader:'Thelonious Monk', year:1971, youtubeId:'5oJJPrx4qIk',
+    personnel:{ piano:'Thelonious Monk' }},
+
+  { title:'Waltz', album:'THE ARRIVAL OF VICTOR FELDMAN', leader:'Victor Feldman', year:1957, youtubeId:'aX0k_3wtgrM',
+    personnel:{ piano:'Victor Feldman', vibraphone:'Victor Feldman', bass:'Scott LaFaro', drums:'Stan Levey' }},
+
+  { title:'Harlem Blues', album:'Harlem Blues', leader:'Phineas Newborn Jr.', year:1959, youtubeId:'J1rcVMfx8h4',
+    personnel:{ piano:'Phineas Newborn Jr.', bass:'Ray Brown', drums:'Elvin Jones' }},
+
+  { title:'Ray\'s Idea', album:'Harlem Blues', leader:'Phineas Newborn Jr.', year:1959, youtubeId:'UuV1raguNWA',
+    personnel:{ piano:'Phineas Newborn Jr.', bass:'Ray Brown', drums:'Elvin Jones' }},,
 
 ]; /* end songs */
