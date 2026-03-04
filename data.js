@@ -33,10 +33,10 @@ const POOLS = {
   trombone:['J.J. Johnson','Curtis Fuller','Slide Hampton','Frank Rosolino','Jimmy Knepper','Grachan Moncur III','Julian Priester','Willie Dennis','Kai Winding','Bob Brookmeyer'],
   guitar:['Wes Montgomery','Grant Green','Jim Hall','Kenny Burrell','Joe Pass','Barney Kessel','Herb Ellis','Jimmy Raney','Tal Farlow','Gabor Szabo'],
   vibraphone:['Milt Jackson','Bobby Hutcherson','Gary Burton','Red Norvo','Victor Feldman','Eddie Costa','Lem Winchester','Cal Tjader','Walt Dickerson'],
-  piano:['Bill Evans','Harold Mabern', 'Red Garland','Wynton Kelly','Herbie Hancock','McCoy Tyner','Tommy Flanagan','Barry Harris','Cedar Walton','Bobby Timmons','Horace Silver','Thelonious Monk','Bud Powell','Hank Jones','Ahmad Jamal','Oscar Peterson','Duke Pearson','Richie Powell','Walter Davis Jr.','Sonny Clark','Mal Waldron','Kenny Drew','Roland Hanna','Andrew Hill','Jaki Byard','Joe Zawinul','Elmo Hope','Ray Bryant','Junior Mance','Dave Brubeck','Horace Parlan','Duke Jordan','Duke Pearson', 'Russ Freeman'],
+  piano:['Bill Evans','Paul Bley', 'Harold Mabern', 'Red Garland','Wynton Kelly','Herbie Hancock','McCoy Tyner','Tommy Flanagan','Barry Harris','Cedar Walton','Bobby Timmons','Horace Silver','Thelonious Monk','Bud Powell','Hank Jones','Ahmad Jamal','Oscar Peterson','Duke Pearson','Richie Powell','Walter Davis Jr.','Sonny Clark','Mal Waldron','Kenny Drew','Herbie Nichols', 'Roland Hanna','Andrew Hill','Jaki Byard','Joe Zawinul','Elmo Hope','Ray Bryant','Junior Mance','Dave Brubeck','Horace Parlan','Duke Jordan','Duke Pearson', 'Russ Freeman'],
   organ:['Jimmy Smith','Jack McDuff','Larry Young','Shirley Scott','Don Patterson','Charles Earland','Jimmy McGriff','Big John Patton'],
-  bass:['Paul Chambers','Laymon Jackso', 'Scott LaFaro','Ron Carter','Jimmy Garrison','Charlie Haden','Ray Brown','Percy Heath','Wilbur Ware','Reggie Workman','Bob Cranshaw','Sam Jones','Doug Watkins','Oscar Pettiford','George Morrow','Jymie Merritt','Butch Warren','Richard Davis','Teddy Smith','Steve Davis','Art Davis','Leroy Vinnegar','Chuck Israels','Major Holley','Gene Taylor','Henry Grimes','Gary Peacock','Carson Smith','Charles Mingus'],
-  drums:['Jimmy Cobb','Philly Joe Jones','Tony Williams','Max Roach','Art Blakey','Elvin Jones','Paul Motian','Roy Haynes','Billy Higgins','Ed Thigpen','Albert Heath','Pete La Roca','Joe Morello','Frankie Dunlop','Ben Riley','Dannie Richmond','Roger Humphries','Shadow Wilson','Art Taylor','Louis Hayes','Charlie Persip','Mickey Roker','Kenny Clarke','Lex Humphries','Bill English','Bob Neel','Al Harewood','Mel Lewis'],
+  bass:['Paul Chambers','Laymon Jackso', 'Scott LaFaro','Ron Carter','Jimmy Garrison','Charlie Haden','Ray Brown','Percy Heath','Wilbur Ware','Reggie Workman','Bob Cranshaw','Sam Jones','Doug Watkins','Oscar Pettiford','George Morrow','Jymie Merritt','Niels-Henning Ørsted Pedersen', 'Butch Warren','Richard Davis','Teddy Smith','Steve Davis','Art Davis','Leroy Vinnegar','Chuck Israels','Major Holley','Gene Taylor','Henry Grimes','Gary Peacock','Carson Smith','Charles Mingus'],
+  drums:['Jimmy Cobb','Philly Joe Jones','Tony Williams','Max Roach','Art Blakey','Elvin Jones','Paul Motian','Roy Haynes','Billy Higgins','Ed Thigpen','Albert Heath','Pete La Roca','Joe Morello','Frankie Dunlop','Ben Riley','Dannie Richmond','Roger Humphries','Shadow Wilson','Art Taylor','Louis Hayes','Charlie Persip','Mickey Roker','Kenny Clarke','Lex Humphries','Bill English','Bob Neel','Al Harewood','Mel Lewis', 'Jørn Elniff'],
   voice:["Billie Holiday","Sarah Vaughan","Ella Fitzgerald","Carmen McRae","Betty Carter","Abbey Lincoln","Nina Simone","Shirley Horn","Anita O'Day","Chris Connor"]
 };
 
@@ -298,5 +298,34 @@ const songs = [
 
   { title:'Like Someone in Love', album:'Profile', leader:'Duke Pearson', year:1959, youtubeId:'ho-bL9-pQWg',
     personnel:{ piano:'Duke Pearson', bass:'Gene Taylor', drums:'Lex Humphries' }},
+
+
+
+
+
+
+     { title:'Like Someone in Love', album:'1962 Copenhagen', leader:'Bud Powell', year:1962, youtubeId:'tf1PM80iErY',
+    personnel:{ piano:'Bud Powell', bass:'Niels-Henning Ørsted Pedersen', drums:'Jørn Elniff' }},
+
+  { title:'Split Kick', album:'Introducing Paul Bley', leader:'Paul Bley', year:1953, youtubeId:'-ehc-7iQ0Uw',
+    personnel:{ piano:'Paul Bley', bass:'Charles Mingus', drums:'Art Blakey' }},
+
+  { title:'Wilburs Red Cross', album:'Wilbur Ware Super Bass', leader:'Wilbur Ware', year:1968, youtubeId:'C0eMWpnEYtE',
+    personnel:{ bass:'Wilbur Ware', tenor_sax:'Clifford Jordan', trumpet:'Don Cherry', drums:'Ed Blackwell' }},
+
+  { title:'Too Close for Comfort', album:'Love, Gloom, Cash, Love', leader:'Herbie Nichols', year:1957, youtubeId:'BH00upW6lxo',
+    personnel:{ piano:'Herbie Nichols', bass:'George Duvivier', drums:'Dannie Richmond' }},
+
+  { title:'Love, Gloom, Cash, Love', album:'Love, Gloom, Cash, Love', leader:'Herbie Nichols', year:1957, youtubeId:'HSGINNvs4Hg',
+    personnel:{ piano:'Herbie Nichols', bass:'George Duvivier', drums:'Dannie Richmond' }},
+
+  { title:'Pumpkin', album:'Black Fire', leader:'Andrew Hill', year:1963, youtubeId:'VdMmcyDU8Yc',
+    personnel:{ tenor_sax:'Joe Henderson', piano:'Andrew Hill', bass:'Richard Davis', drums:'Roy Haynes' }},
+
+  { title:'ATFW You', album:'Cornell 1964', leader:'Charles Mingus', year:1964, youtubeId:'FPZzVGs09Hg',
+    personnel:{piano:'Jaki Byard'}},
+
+  { title:'Out Front', album:'Out Front!', leader:'Jaki Byard', year:1961, youtubeId:'jmf-RUNiRNA',
+    personnel:{ piano:'Jaki Byard', bass:'Bob Cranshaw', drums:'Walter Perkins' }},
 
 ]; /* end songs */
