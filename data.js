@@ -33,9 +33,9 @@ const POOLS = {
   trombone:['J.J. Johnson','Curtis Fuller','Slide Hampton','Frank Rosolino','Jimmy Knepper','Grachan Moncur III','Julian Priester','Willie Dennis','Kai Winding','Bob Brookmeyer'],
   guitar:['Wes Montgomery','Grant Green','Jim Hall','Kenny Burrell','Joe Pass','Barney Kessel','Herb Ellis','Jimmy Raney','Tal Farlow','Gabor Szabo'],
   vibraphone:['Milt Jackson','Bobby Hutcherson','Gary Burton','Red Norvo','Victor Feldman','Eddie Costa','Lem Winchester','Cal Tjader','Walt Dickerson'],
-  piano:['Bill Evans','Harold Mabern', 'Red Garland','Wynton Kelly','Herbie Hancock','McCoy Tyner','Tommy Flanagan','Barry Harris','Cedar Walton','Bobby Timmons','Horace Silver','Thelonious Monk','Bud Powell','Hank Jones','Ahmad Jamal','Oscar Peterson','Duke Pearson','Richie Powell','Walter Davis Jr.','Sonny Clark','Mal Waldron','Kenny Drew','Roland Hanna','Andrew Hill','Jaki Byard','Joe Zawinul','Elmo Hope','Ray Bryant','Junior Mance','Dave Brubeck','Horace Parlan','Duke Jordan','Russ Freeman'],
+  piano:['Bill Evans','Harold Mabern', 'Red Garland','Wynton Kelly','Herbie Hancock','McCoy Tyner','Tommy Flanagan','Barry Harris','Cedar Walton','Bobby Timmons','Horace Silver','Thelonious Monk','Bud Powell','Hank Jones','Ahmad Jamal','Oscar Peterson','Duke Pearson','Richie Powell','Walter Davis Jr.','Sonny Clark','Mal Waldron','Kenny Drew','Roland Hanna','Andrew Hill','Jaki Byard','Joe Zawinul','Elmo Hope','Ray Bryant','Junior Mance','Dave Brubeck','Horace Parlan','Duke Jordan','Duke Pearson', 'Russ Freeman'],
   organ:['Jimmy Smith','Jack McDuff','Larry Young','Shirley Scott','Don Patterson','Charles Earland','Jimmy McGriff','Big John Patton'],
-  bass:['Paul Chambers','Scott LaFaro','Ron Carter','Jimmy Garrison','Charlie Haden','Ray Brown','Percy Heath','Wilbur Ware','Reggie Workman','Bob Cranshaw','Sam Jones','Doug Watkins','Oscar Pettiford','George Morrow','Jymie Merritt','Butch Warren','Richard Davis','Teddy Smith','Steve Davis','Art Davis','Leroy Vinnegar','Chuck Israels','Major Holley','Gene Taylor','Henry Grimes','Gary Peacock','Carson Smith','Charles Mingus'],
+  bass:['Paul Chambers','Laymon Jackso', 'Scott LaFaro','Ron Carter','Jimmy Garrison','Charlie Haden','Ray Brown','Percy Heath','Wilbur Ware','Reggie Workman','Bob Cranshaw','Sam Jones','Doug Watkins','Oscar Pettiford','George Morrow','Jymie Merritt','Butch Warren','Richard Davis','Teddy Smith','Steve Davis','Art Davis','Leroy Vinnegar','Chuck Israels','Major Holley','Gene Taylor','Henry Grimes','Gary Peacock','Carson Smith','Charles Mingus'],
   drums:['Jimmy Cobb','Philly Joe Jones','Tony Williams','Max Roach','Art Blakey','Elvin Jones','Paul Motian','Roy Haynes','Billy Higgins','Ed Thigpen','Albert Heath','Pete La Roca','Joe Morello','Frankie Dunlop','Ben Riley','Dannie Richmond','Roger Humphries','Shadow Wilson','Art Taylor','Louis Hayes','Charlie Persip','Mickey Roker','Kenny Clarke','Lex Humphries','Bill English','Bob Neel','Al Harewood','Mel Lewis'],
   voice:["Billie Holiday","Sarah Vaughan","Ella Fitzgerald","Carmen McRae","Betty Carter","Abbey Lincoln","Nina Simone","Shirley Horn","Anita O'Day","Chris Connor"]
 };
@@ -280,5 +280,23 @@ const songs = [
 
   { title:'Grass Roots', album:'Grass Roots', leader:'Andrew Hill', year:1968, youtubeId:'QA1-TDGnfUM',
     personnel:{ tenor_sax:'Booker Ervin', trumpet:'Lee Morgan', piano:'Andrew Hill', bass:'Ron Carter', drums:'Freddie Waits' }},
+
+
+
+
+
+   
+
+
+
+
+  { title:'Rock Your Soul', album:'Jammin\' With Herbie', leader:'Herbie Hancock', year:1961, youtubeId:'dbCE4Rb6X6s',
+    personnel:{ piano:'Herbie Hancock', bass:'Laymon Jackson', drums:'Jimmy Cobb' }},
+
+  { title:'One for Five', album:'Bossa Nova Bacchanal', leader:'Charlie Rouse', year:1965, youtubeId:'r5kg1cNU_Z0',
+    personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Charlie Rouse', piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Billy Higgins' }},
+
+  { title:'Like Someone in Love', album:'Profile', leader:'Duke Pearson', year:1959, youtubeId:'ho-bL9-pQWg',
+    personnel:{ piano:'Duke Pearson', bass:'Gene Taylor', drums:'Lex Humphries' }},
 
 ]; /* end songs */
