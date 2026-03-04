@@ -33,9 +33,9 @@ const POOLS = {
   trombone:['J.J. Johnson','Curtis Fuller','Slide Hampton','Frank Rosolino','Jimmy Knepper','Grachan Moncur III','Julian Priester','Willie Dennis','Kai Winding','Bob Brookmeyer'],
   guitar:['Wes Montgomery','Grant Green','Jim Hall','Kenny Burrell','Joe Pass','Barney Kessel','Herb Ellis','Jimmy Raney','Tal Farlow','Gabor Szabo'],
   vibraphone:['Milt Jackson','Bobby Hutcherson','Gary Burton','Red Norvo','Victor Feldman','Eddie Costa','Lem Winchester','Cal Tjader','Walt Dickerson'],
-  piano:['Bill Evans','Paul Bley', 'Harold Mabern', 'Red Garland','Wynton Kelly','Herbie Hancock','McCoy Tyner','Tommy Flanagan','Barry Harris','Cedar Walton','Bobby Timmons','Horace Silver','Thelonious Monk','Bud Powell','Hank Jones','Ahmad Jamal','Stanley Cowell', 'Victor Feldman', 'Oscar Peterson','Duke Pearson','Richie Powell','Walter Davis Jr.','Sonny Clark','Mal Waldron','Kenny Drew','Herbie Nichols', 'Roland Hanna', 'Andrew Hill','Jaki Byard','Joe Zawinul','Elmo Hope','Ray Bryant','Junior Mance','Dave Brubeck','Horace Parlan','Duke Jordan','Duke Pearson', 'Russ Freeman'],
+  piano:['Bill Evans','Paul Bley', 'Harold Mabern', 'Red Garland','Wynton Kelly','Herbie Hancock','McCoy Tyner','Tommy Flanagan','Barry Harris','Cedar Walton','Bobby Timmons','Horace Silver','Thelonious Monk','Bud Powell','Hank Jones','Ahmad Jamal','Stanley Cowell', 'Duke Ellington', 'Victor Feldman', 'Oscar Peterson','Duke Pearson','Richie Powell','Walter Davis Jr.','Sonny Clark','Mal Waldron','Kenny Drew','Herbie Nichols', 'Roland Hanna', 'Andrew Hill','Jaki Byard','Joe Zawinul','Elmo Hope','Ray Bryant','Junior Mance','Dave Brubeck','Horace Parlan','Duke Jordan','Duke Pearson', 'Russ Freeman'],
   organ:['Jimmy Smith','Jack McDuff','Larry Young','Shirley Scott','Don Patterson','Charles Earland','Jimmy McGriff','Big John Patton'],
-  bass:['Paul Chambers','Laymon Jackson', 'Scott LaFaro','Ron Carter','Jimmy Garrison','Charlie Haden','Ray Brown','Percy Heath','Wilbur Ware','Reggie Workman','Bob Cranshaw','Sam Jones','Doug Watkins','Oscar Pettiford','George Morrow','Jymie Merritt','NHØP', 'Butch Warren','Richard Davis', 'Chuck Isreals', 'Reggie Johnson', 'Teddy Smith','Steve Davis','Art Davis','Leroy Vinnegar','Chuck Israels','Major Holley','Gene Taylor','Henry Grimes','Gary Peacock', 'Carson Smith','Charles Mingus'],
+  bass:['Paul Chambers','Laymon Jackson', 'Scott LaFaro','Ron Carter','Jimmy Garrison','Charlie Haden','Ray Brown','Percy Heath','Wilbur Ware','Reggie Workman','Bob Cranshaw','Sam Jones','Doug Watkins','Oscar Pettiford','George Morrow','Jymie Merritt','NHØP', 'Aaron Bell', 'Butch Warren','Richard Davis', 'Chuck Isreals', 'Reggie Johnson', 'Teddy Smith','Steve Davis','Art Davis','Leroy Vinnegar','Chuck Israels','Major Holley','Gene Taylor','Henry Grimes','Gary Peacock', 'Carson Smith','Charles Mingus'],
   drums:['Jimmy Cobb','Philly Joe Jones','Tony Williams','Max Roach','Art Blakey','Elvin Jones','Paul Motian','Roy Haynes','Billy Higgins','Ed Thigpen','Albert Heath','Pete LaRoca','Joe Morello','Frankie Dunlop','Ben Riley','Dannie Richmond','Roger Humphries','Shadow Wilson','Art Taylor','Louis Hayes','Charlie Persip','Mickey Roker','Kenny Clarke','Lex Humphries','Bill English','Bob Neel','Al Harewood','Mel Lewis', 'Jørn Elniff'],
   voice:["Billie Holiday","Sarah Vaughan","Ella Fitzgerald","Carmen McRae","Betty Carter","Abbey Lincoln","Nina Simone","Shirley Horn","Anita O'Day","Chris Connor"]
 };
@@ -401,5 +401,17 @@ const songs = [
 
   { title:'Ray\'s Idea', album:'Harlem Blues', leader:'Phineas Newborn Jr.', year:1959, youtubeId:'UuV1raguNWA',
     personnel:{ piano:'Phineas Newborn Jr.', bass:'Ray Brown', drums:'Elvin Jones' }},
+
+  { title:'Money Jungle', album:'Money Jungle', leader:'Duke Ellington', year:1962, youtubeId:'z9CfWuUIhvk',
+    personnel:{ piano:'Duke Ellington', bass:'Charles Mingus', drums:'Max Roach' }},
+
+  { title:'Warm Valley', album:'Money Jungle', leader:'Duke Ellington', year:1962, youtubeId:'UryIva-bn1U',
+    personnel:{ piano:'Duke Ellington', bass:'Charles Mingus', drums:'Max Roach' }},
+
+    { title:'In a Sentimental Mood', album:'Duke Ellington & John Coltrane', leader:'Duke Ellington', year:1962, youtubeId:'gkdFmq4Nnmk',
+    personnel:{ tenor_sax:'John Coltrane', piano:'Duke Ellington', bass:'Aaron Bell', drums:'Elvin Jones' }},
+
+  { title:'The Feeling of Jazz', album:'Duke Ellington & John Coltrane', leader:'Duke Ellington', year:1962, youtubeId:'Zka8CXiOX6I',
+    personnel:{ tenor_sax:'John Coltrane', piano:'Duke Ellington', bass:'Aaron Bell', drums:'Sam Woodyard' }},
 
 ]; /* end songs */
