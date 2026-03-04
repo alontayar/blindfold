@@ -265,5 +265,20 @@ const songs = [
   /* ── ANDREW HILL ──────────────────────────────────────── */
   { title:'Refuge', album:'Point of Departure', leader:'Andrew Hill', year:1964, youtubeId:'dYZcjrydVt0',
     personnel:{ trumpet:'Kenny Dorham', alto_sax:'Eric Dolphy', tenor_sax:'Joe Henderson', piano:'Andrew Hill', bass:'Richard Davis', drums:'Tony Williams' }},
+   
+     { title:'Pumpkin', album:'Black Fire', leader:'Andrew Hill', year:1963, youtubeId:'zHkDNZkjquQ',
+    personnel:{ tenor_sax:'Joe Henderson', piano:'Andrew Hill', bass:'Richard Davis', drums:'Roy Haynes' }},
+
+  { title:'Siete Ocho', album:'Judgment!', leader:'Andrew Hill', year:1964, youtubeId:'rkzazhbDUw8',
+    personnel:{ vibraphone:'Bobby Hutcherson', piano:'Andrew Hill', bass:'Richard Davis', drums:'Elvin Jones' }},
+
+  { title:'The Griots', album:'Andrew!!!', leader:'Andrew Hill', year:1964, youtubeId:'SwJEf-BF5_E',
+    personnel:{ vibraphone:'Bobby Hutcherson', piano:'Andrew Hill', bass:'Richard Davis', drums:'Joe Chambers' }},
+
+  { title:'Euterpe', album:'Pax', leader:'Andrew Hill', year:1965, youtubeId:'PmtbcUtZ1nE',
+    personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Joe Henderson', piano:'Andrew Hill', bass:'Richard Davis', drums:'Joe Chambers' }},
+
+  { title:'Grass Roots', album:'Grass Roots', leader:'Andrew Hill', year:1968, youtubeId:'QA1-TDGnfUM',
+    personnel:{ tenor_sax:'Booker Ervin', trumpet:'Lee Morgan', piano:'Andrew Hill', bass:'Ron Carter', drums:'Freddie Waits' }},
 
 ]; /* end songs */
