@@ -323,7 +323,7 @@ const songs = [
     personnel:{ tenor_sax:'Joe Henderson', piano:'Andrew Hill', bass:'Richard Davis', drums:'Roy Haynes' }},
 
   { title:'ATFW You', album:'Cornell 1964', leader:'Charles Mingus', year:1964, youtubeId:'FPZzVGs09Hg',
-    personnel:{piano:'Jaki Byard'}},
+    personnel:{piano:'Jaki Byard', bass: 'Charles Mingus', drums: 'Dannie Richmond'}},
 
   { title:'Out Front', album:'Out Front!', leader:'Jaki Byard', year:1961, youtubeId:'jmf-RUNiRNA',
     personnel:{ piano:'Jaki Byard', bass:'Bob Cranshaw', drums:'Walter Perkins' }},
