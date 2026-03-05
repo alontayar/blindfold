@@ -373,10 +373,10 @@ const songs = [
     personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Wayne Shorter', piano:'Cedar Walton', bass:'Reggie Workman', drums:'Philly Joe Jones' }},
 
   { title:'Visions', album:'Medina & Spiral', leader:'Bobby Hutcherson', year:1968, youtubeId:'zSGm28sdHqg',
-    personnel:{ vibraphone:'Bobby Hutcherson', piano:'Harold Land', bass:'Reggie Johnson', drums:'Joe Chambers' }},
+    personnel:{ vibraphone:'Bobby Hutcherson', tenor_sax:'Harold Land', piano: 'Stanley Cowell', bass:'Reggie Johnson', drums:'Joe Chambers' }},
 
   { title:'Spiral', album:'Medina & Spiral', leader:'Bobby Hutcherson', year:1968, youtubeId:'J_Xkbm_IfZo',
-    personnel:{ vibraphone:'Bobby Hutcherson', piano:'Harold Land', bass:'Reggie Johnson', drums:'Joe Chambers' }},
+    personnel:{ vibraphone:'Bobby Hutcherson', tenor_sax:'Harold Land', piano: 'Stanley Cowell', bass:'Reggie Johnson', drums:'Joe Chambers' }},
 
   { title:'Equipoise', album:'Members Don\'t Get Weary', leader:'Max Roach', year:1968, youtubeId:'YJVL5uRDTrM',
     personnel:{ drums:'Max Roach', trumpet:'Charles Tolliver', alto_sax:'Gary Bartz', piano:'Stanley Cowell', bass:'Jymie Merritt' }},
