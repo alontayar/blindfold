@@ -325,7 +325,7 @@ const songs = [
   { title:'ATFW You', album:'Cornell 1964', leader:'Charles Mingus', year:1964, youtubeId:'FPZzVGs09Hg',
     personnel:{piano:'Jaki Byard', bass: 'Charles Mingus', drums: 'Dannie Richmond'}},
 
-  { title:'Out Front', album:'Out Front!', leader:'Jaki Byard', year:1961, youtubeId:'jmf-RUNiRNA',
+  { title:'Out Front', album:'Out Front!', leader:'Jaki Byard', year:1961, youtubeId:'GJexqlUMo5A',
     personnel:{ piano:'Jaki Byard', bass:'Bob Cranshaw', drums:'Walter Perkins' }},
 
 
