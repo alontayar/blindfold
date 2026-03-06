@@ -147,7 +147,7 @@ const songs = [
     personnel:{ trumpet:'Lee Morgan', tenor_sax:'Joe Henderson', piano:'Barry Harris', bass:'Bob Cranshaw', drums:'Billy Higgins' }},
   { title:'Ceora', album:'Cornbread', leader:'Lee Morgan', year:1965, youtubeId:'uRjshy_n_yE',
     personnel:{ trumpet:'Lee Morgan', tenor_sax:'Hank Mobley', piano:'Herbie Hancock', bass:'Larry Ridley', drums:'Billy Higgins' }},
-  { title:'Speedball', album:'The Gigolo', leader:'Lee Morgan', year:1968, youtubeId:'HkDm9bqGPLc',
+  { title:'Speedball', album:'The Gigolo', leader:'Lee Morgan', year:1968, youtubeId:'Gp72Pt-8JI',
     personnel:{ trumpet:'Lee Morgan', tenor_sax:'Wayne Shorter', piano:'Harold Mabern', bass:'Bob Cranshaw', drums:'Billy Higgins' }},
 
   /* ── HERBIE HANCOCK ───────────────────────────────────── */
