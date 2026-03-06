@@ -35,7 +35,7 @@ const POOLS = {
   vibraphone:['Milt Jackson','Bobby Hutcherson','Gary Burton','Red Norvo','Victor Feldman','Eddie Costa','Lem Winchester','Cal Tjader','Walt Dickerson'],
   piano:['Bill Evans','Paul Bley', 'Harold Mabern', 'Red Garland','Wynton Kelly','Herbie Hancock','McCoy Tyner','Tommy Flanagan','Barry Harris','Cedar Walton','Bobby Timmons','Horace Silver','Thelonious Monk','Bud Powell','Hank Jones','Ahmad Jamal','Stanley Cowell', 'Duke Ellington', 'Victor Feldman', 'Oscar Peterson','Duke Pearson','Richie Powell','Walter Davis Jr.','Sonny Clark','Mal Waldron','Kenny Drew','Herbie Nichols', 'Andrew Hill','Jaki Byard','Joe Zawinul','Elmo Hope','Ray Bryant','Junior Mance','Dave Brubeck','Horace Parlan','Duke Jordan','Duke Pearson'],
   organ:['Jimmy Smith','Jack McDuff','Larry Young','Shirley Scott','Don Patterson','Charles Earland','Jimmy McGriff','Big John Patton'],
-  bass:['Paul Chambers','Laymon Jackson', 'Scott LaFaro','Ron Carter','Jimmy Garrison','Charlie Haden','Ray Brown','Percy Heath','Wilbur Ware','Reggie Workman','Bob Cranshaw','Sam Jones','Doug Watkins','Oscar Pettiford','George Morrow','Jymie Merritt','NHØP', 'Aaron Bell', 'Butch Warren','Richard Davis', 'Reggie Johnson', 'Teddy Smith','Steve Davis','Art Davis','Leroy Vinnegar','Chuck Israels','Charles Mingus'],
+  bass:['Paul Chambers','Laymon Jackson', 'Scott LaFaro','Ron Carter','Jimmy Garrison','Charlie Haden','Ray Brown','Percy Heath','Wilbur Ware','Reggie Workman','Bob Cranshaw','Sam Jones','Doug Watkins','Oscar Pettiford','George Morrow','Jymie Merritt','NHØP', 'George Duvivier', 'Aaron Bell', 'Butch Warren','Richard Davis', 'Reggie Johnson', 'Teddy Smith','Steve Davis','Art Davis','Leroy Vinnegar','Chuck Israels','Charles Mingus'],
   drums:['Jimmy Cobb','Philly Joe Jones','Tony Williams','Max Roach','Art Blakey','Elvin Jones','Paul Motian','Roy Haynes','Billy Higgins','Ed Thigpen','Albert Heath','Pete LaRoca','Joe Morello','Frankie Dunlop','Ben Riley','Dannie Richmond','Shadow Wilson','Art Taylor','Louis Hayes','Charlie Persip','Kenny Clarke','Lex Humphries','Al Harewood'],
   voice:["Billie Holiday","Sarah Vaughan","Ella Fitzgerald","Carmen McRae","Betty Carter","Abbey Lincoln","Nina Simone","Shirley Horn","Anita O'Day","Chris Connor"],
   flute:["Herbie Mann","Hubert Laws","Yusef Lateef","James Moody","Frank Wess","Roland Kirk","Eric Dolphy"]
@@ -452,6 +452,9 @@ const songs = [
 
    
 
+  { title:'Take the "A" Train', album:'2-3-4', leader:'Shelly Manne', year:1962, youtubeId:'bkQuAI1O3xs',
+    personnel:{ tenor_sax:'Coleman Hawkins', piano:'Hank Jones', bass:'George Duvivier', drums:'Shelly Manne' }},
+   
   { title:'Blues Function', album:'Bluesnik', leader:'Jackie McLean', year:1961, youtubeId:'dnXB_FR00JA',
     personnel:{ alto_sax:'Jackie McLean', trumpet:'Freddie Hubbard', piano:'Kenny Drew', bass:'Doug Watkins', drums:'Pete La Roca' }},
 
