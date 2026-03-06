@@ -450,7 +450,13 @@ const songs = [
 
 
 
+   
 
+  { title:'Blues Function', album:'Bluesnik', leader:'Jackie McLean', year:1961, youtubeId:'dnXB_FR00JA',
+    personnel:{ alto_sax:'Jackie McLean', trumpet:'Freddie Hubbard', piano:'Kenny Drew', bass:'Doug Watkins', drums:'Pete La Roca' }},
+
+     { title:'Air Raid', album:'Evolution', leader:'Grachan Moncur III', year:1963, youtubeId:'UOhhx96udUY',
+    personnel:{ trombone:'Grachan Moncur III', trumpet:'Lee Morgan', alto_sax:'Jackie McLean', vibraphone:'Bobby Hutcherson', bass:'Bob Cranshaw', drums:'Tony Williams' }},
 
      { title:'Fuchsia Swing Song', album:'Fuchsia Swing Song', leader:'Sam Rivers', year:1964, youtubeId:'bCpuaVe_pOU',
     personnel:{ tenor_sax:'Sam Rivers', piano:'Jaki Byard', bass:'Ron Carter', drums:'Tony Williams' }},
@@ -466,6 +472,13 @@ const songs = [
 
      { title:'De-Dah', album:'Here\'s Hope!', leader:'Elmo Hope', year:1961, youtubeId:'CPkK8c-BN0Y',
     personnel:{ piano:'Elmo Hope', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
+
+     { title:'Five Will Get You Ten', album:'A Fickle Sonance', leader:'Jackie McLean', year:1961, youtubeId:'F3ZphdNu4ng',
+    personnel:{ alto_sax:'Jackie McLean', trumpet:'Tommy Turrentine', piano:'Sonny Clark', bass:'Butch Warren', drums:'Billy Higgins' }},
+
+   
+
+   
 
    
 
