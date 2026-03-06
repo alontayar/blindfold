@@ -23,7 +23,7 @@ const INSTR_LABEL = {
 };
 
 const POOLS = {
-  trumpet:['Miles Davis','Clifford Brown','Lee Morgan','Freddie Hubbard','Chet Baker','Kenny Dorham','Art Farmer','Donald Byrd','Woody Shaw','Blue Mitchell','Clark Terry','Dizzy Gillespie','Fats Navarro','Booker Little','Thad Jones','Nat Adderley','Ted Curson','Bill Hardman','Charles Tolliver', 'Carmell Jones'],
+  trumpet:['Miles Davis','Clifford Brown','Lee Morgan','Freddie Hubbard','Chet Baker','Kenny Dorham','Art Farmer','Donald Byrd','Woody Shaw','Blue Mitchell','Clark Terry','Dizzy Gillespie','Booker Little','Thad Jones','Nat Adderley','Charles Tolliver'],
   cornet:['Don Cherry','Nat Adderley','Clark Terry','Thad Jones','Bobby Bradford','Ruby Braff'],
   flugelhorn:['Art Farmer','Miles Davis','Clark Terry','Freddie Hubbard','Thad Jones','Chet Baker'],
   soprano_sax:['John Coltrane','Steve Lacy','Sidney Bechet','Wayne Shorter','Roland Kirk'],
@@ -446,6 +446,9 @@ const songs = [
 
      { title:'Theme for Ernie', album:'Soultrane', leader:'John Coltrane', year:1958, youtubeId:'vRObBFYTBh8',
     personnel:{ tenor_sax:'John Coltrane', piano:'Red Garland', bass:'Paul Chambers', drums:'Art Taylor' }},
+
+     { title:'Mr. Kenyatta', album:'Search for the New Land', leader:'Lee Morgan', year:1964, youtubeId:'5_Z4AVOmCKU',
+    personnel:{ trumpet:'Lee Morgan', tenor_sax:'Wayne Shorter', guitar:'Grant Green', piano:'Herbie Hancock', bass:'Reggie Workman', drums:'Billy Higgins' }},
 
    
 ]; /* end songs */
