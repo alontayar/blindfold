@@ -414,4 +414,31 @@ const songs = [
   { title:'The Feeling of Jazz', album:'Duke Ellington & John Coltrane', leader:'Duke Ellington', year:1962, youtubeId:'Zka8CXiOX6I',
     personnel:{ tenor_sax:'John Coltrane', piano:'Duke Ellington', bass:'Aaron Bell', drums:'Sam Woodyard' }},
 
+
+
+
+
+
+
+
+  
+
+  { title:'Locomotion', album:'Blue Train', leader:'John Coltrane', year:1957, youtubeId:'tOAldzgQ9nY',
+    personnel:{ tenor_sax:'John Coltrane', trumpet:'Lee Morgan', trombone:'Curtis Fuller', piano:'Kenny Drew', bass:'Paul Chambers', drums:'Philly Joe Jones' }},  // :contentReference[oaicite:0]{index=0}
+
+  { title:'Three Little Words', album:'LD + 3', leader:'Lou Donaldson', year:1958, youtubeId:'UBK-iH7SBkc',
+    personnel:{ alto_sax:'Lou Donaldson', piano:'Gene Harris', bass:'Andy Simpkins', drums:'Bill Dowdy' }},
+
+  { title:'Chain Reaction', album:'A Caddy for Daddy', leader:'Hank Mobley', year:1965, youtubeId:'e7LCG3Y0Uuo',
+    personnel:{ tenor_sax:'Hank Mobley', trombone:'Curtis Fuller', trumpet:'Lee Morgan', piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Billy Higgins' }},
+
+  { title:'No Blues', album:'Smokin\' at the Half Note', leader:'Wes Montgomery', year:1965, youtubeId:'Kbjq6EVuSto',
+    personnel:{ guitar:'Wes Montgomery', piano:'Wynton Kelly', bass:'Paul Chambers', drums:'Jimmy Cobb' }},
+
+  { title:'Lennie Bird', album:'Live at the Half Note', leader:'Lee Konitz', year:1959, youtubeId:'1qS8b7bXK94',
+    personnel:{ alto_sax:'Lee Konitz', tenor_sax:'Warne Marsh', piano:'Bill Evans', bass:'Jimmy Garrison', drums:'Paul Motian' }},
+
+  { title:'My Heart Stood Still', album:'Preminado', leader:'Barry Harris', year:1960, youtubeId:'YFVzpAi0ipU',
+    personnel:{ piano:'Barry Harris', bass:'Joe Benjamin', drums:'Elvin Jones' }},
+
 ]; /* end songs */
