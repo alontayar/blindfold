@@ -444,4 +444,8 @@ const songs = [
      { title:'There Will Never Be Another You', album:'Deeds, Not Words', leader:'Max Roach', year:1958, youtubeId:'x537pt8UxaU',
     personnel:{ bass:'Oscar Pettiford', drums:'Max Roach' }},
 
+     { title:'Theme for Ernie', album:'Soultrane', leader:'John Coltrane', year:1958, youtubeId:'vRObBFYTBh8',
+    personnel:{ tenor_sax:'John Coltrane', piano:'Red Garland', bass:'Paul Chambers', drums:'Art Taylor' }},
+
+   
 ]; /* end songs */
