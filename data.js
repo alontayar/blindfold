@@ -248,10 +248,6 @@ const songs = [
   { title:'Mercy, Mercy, Mercy', album:'Mercy, Mercy, Mercy!', leader:'Cannonball Adderley', year:1966, youtubeId:'y7FFLYXEOqA',
     personnel:{ alto_sax:'Cannonball Adderley', cornet:'Nat Adderley', piano:'Joe Zawinul', bass:'Victor Gaskin', drums:'Roy McCurdy' }},
 
-  /* ── KENNY BURRELL ────────────────────────────────────── */
-  { title:'Chitlins con Carne', album:'Midnight Blue', leader:'Kenny Burrell', year:1963, youtubeId:'ylGjvwXV3HA',
-    personnel:{ guitar:'Kenny Burrell', tenor_sax:'Stanley Turrentine', bass:'Major Holley', drums:'Bill English' }},
-
   /* ── ERIC DOLPHY ──────────────────────────────────────── */
   { title:'Out to Lunch', album:'Out to Lunch!', leader:'Eric Dolphy', year:1964, youtubeId:'gzBpK1GcwdQ',
     personnel:{ alto_sax:'Eric Dolphy', trumpet:'Freddie Hubbard', vibraphone:'Bobby Hutcherson', bass:'Richard Davis', drums:'Tony Williams' }},
