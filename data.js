@@ -455,6 +455,12 @@ const songs = [
   { title:'Blues Function', album:'Bluesnik', leader:'Jackie McLean', year:1961, youtubeId:'dnXB_FR00JA',
     personnel:{ alto_sax:'Jackie McLean', trumpet:'Freddie Hubbard', piano:'Kenny Drew', bass:'Doug Watkins', drums:'Pete La Roca' }},
 
+     { title:'Cloud Break (Up Blues)', album:'Out of the Storm', leader:'Ed Thigpen', year:1966, youtubeId:'vX1QYI7FHGI',
+    personnel:{ trumpet:'Clark Terry', guitar:'Kenny Burrell', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Ed Thigpen' }},
+
+  { title:'Cielito Lindo', album:'Out of the Storm', leader:'Ed Thigpen', year:1966, youtubeId:'MAleo5rgnXk',
+    personnel:{ trumpet:'Clark Terry', guitar:'Kenny Burrell', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Ed Thigpen' }},
+
      { title:'Air Raid', album:'Evolution', leader:'Grachan Moncur III', year:1963, youtubeId:'UOhhx96udUY',
     personnel:{ trombone:'Grachan Moncur III', trumpet:'Lee Morgan', alto_sax:'Jackie McLean', vibraphone:'Bobby Hutcherson', bass:'Bob Cranshaw', drums:'Tony Williams' }},
 
