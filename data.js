@@ -430,7 +430,7 @@ const songs = [
     personnel:{ alto_sax:'Lou Donaldson', piano:'Gene Harris', bass:'Andy Simpkins', drums:'Bill Dowdy' }},
 
   { title:'Chain Reaction', album:'A Caddy for Daddy', leader:'Hank Mobley', year:1965, youtubeId:'e7LCG3Y0Uuo',
-    personnel:{ tenor_sax:'Hank Mobley', trombone:'Curtis Fuller', trumpet:'Lee Morgan', piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Billy Higgins' }},
+    personnel:{ tenor_sax:'Hank Mobley', trumpet:'Lee Morgan', piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Billy Higgins' }},
 
   { title:'No Blues', album:'Smokin\' at the Half Note', leader:'Wes Montgomery', year:1965, youtubeId:'Kbjq6EVuSto',
     personnel:{ guitar:'Wes Montgomery', piano:'Wynton Kelly', bass:'Paul Chambers', drums:'Jimmy Cobb' }},
