@@ -450,5 +450,27 @@ const songs = [
      { title:'Mr. Kenyatta', album:'Search for the New Land', leader:'Lee Morgan', year:1964, youtubeId:'5_Z4AVOmCKU',
     personnel:{ trumpet:'Lee Morgan', tenor_sax:'Wayne Shorter', guitar:'Grant Green', piano:'Herbie Hancock', bass:'Reggie Workman', drums:'Billy Higgins' }},
 
+
+
+
+
+
+     { title:'Fuchsia Swing Song', album:'Fuchsia Swing Song', leader:'Sam Rivers', year:1964, youtubeId:'bCpuaVe_pOU',
+    personnel:{ tenor_sax:'Sam Rivers', piano:'Jaki Byard', bass:'Ron Carter', drums:'Tony Williams' }},
+
+  { title:'Little B\'s Poem', album:'Components', leader:'Bobby Hutcherson', year:1965, youtubeId:'3X-GdYVT7Y8',
+    personnel:{ vibraphone:'Bobby Hutcherson', alto_sax:'James Spaulding', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Joe Chambers' }},
+
+  { title:'Mode for Joe', album:'Mode for Joe', leader:'Joe Henderson', year:1966, youtubeId:'sk1rT9Xsuc0',
+    personnel:{ tenor_sax:'Joe Henderson', trumpet:'Lee Morgan', trombone:'Curtis Fuller', vibraphone:'Bobby Hutcherson', piano:'Cedar Walton', bass:'Ron Carter', drums:'Joe Chambers' }},
+
+  { title:'Nomad', album:'Idle Moments', leader:'Grant Green', year:1963, youtubeId:'5jvP42Q3guw',
+    personnel:{ guitar:'Grant Green', tenor_sax:'Joe Henderson', vibes:'Bobby Hutcherson', piano:'Duke Pearson', bass:'Bob Cranshaw', drums:'Al Harewood' }},
+
+     { title:'De-Dah', album:'Here\'s Hope!', leader:'Elmo Hope', year:1961, youtubeId:'CPkK8c-BN0Y',
+    personnel:{ piano:'Elmo Hope', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
+
+   
+
    
 ]; /* end songs */
