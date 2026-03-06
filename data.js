@@ -82,7 +82,7 @@ const songs = [
   { title:'Giant Steps', album:'Giant Steps', leader:'John Coltrane', year:1959, youtubeId:'KwIC6B_dvW4',
     personnel:{ tenor_sax:'John Coltrane', piano:'Tommy Flanagan', bass:'Paul Chambers', drums:'Art Taylor' }},
   { title:'Naima', album:'Giant Steps', leader:'John Coltrane', year:1959, youtubeId:'bPAC6zt_1ZM',
-    personnel:{ tenor_sax:'John Coltrane', piano:'Tommy Flanagan', bass:'Paul Chambers', drums:'Art Taylor' }},
+    personnel:{ tenor_sax:'John Coltrane', piano:'Wynton Kelly', bass:'Paul Chambers', drums:'Jimmy Cobb' }},
   { title:'Cousin Mary', album:'Giant Steps', leader:'John Coltrane', year:1959, youtubeId:'aAf8YyFtVDA',
     personnel:{ tenor_sax:'John Coltrane', piano:'Tommy Flanagan', bass:'Paul Chambers', drums:'Art Taylor' }},
   { title:'My Favorite Things', album:'My Favorite Things', leader:'John Coltrane', year:1960, youtubeId:'JQvc-Gkwhow',
