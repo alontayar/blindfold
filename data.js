@@ -19,7 +19,7 @@ const INSTR_LABEL = {
   soprano_sax:'Soprano Sax', alto_sax:'Alto Saxophone',
   tenor_sax:'Tenor Saxophone', baritone_sax:'Baritone Sax',
   trombone:'Trombone', guitar:'Guitar', vibraphone:'Vibraphone',
-  piano:'Piano', organ:'Organ', bass:'Bass', drums:'Drums', voice:'Voice'
+  piano:'Piano', organ:'Organ', bass:'Bass', drums:'Drums', voice:'Voice', flute: 'Flute'
 };
 
 const POOLS = {
@@ -37,7 +37,8 @@ const POOLS = {
   organ:['Jimmy Smith','Jack McDuff','Larry Young','Shirley Scott','Don Patterson','Charles Earland','Jimmy McGriff','Big John Patton'],
   bass:['Paul Chambers','Laymon Jackson', 'Scott LaFaro','Ron Carter','Jimmy Garrison','Charlie Haden','Ray Brown','Percy Heath','Wilbur Ware','Reggie Workman','Bob Cranshaw','Sam Jones','Doug Watkins','Oscar Pettiford','George Morrow','Jymie Merritt','NHØP', 'Aaron Bell', 'Butch Warren','Richard Davis', 'Reggie Johnson', 'Teddy Smith','Steve Davis','Art Davis','Leroy Vinnegar','Chuck Israels','Charles Mingus'],
   drums:['Jimmy Cobb','Philly Joe Jones','Tony Williams','Max Roach','Art Blakey','Elvin Jones','Paul Motian','Roy Haynes','Billy Higgins','Ed Thigpen','Albert Heath','Pete LaRoca','Joe Morello','Frankie Dunlop','Ben Riley','Dannie Richmond','Shadow Wilson','Art Taylor','Louis Hayes','Charlie Persip','Kenny Clarke','Lex Humphries','Al Harewood'],
-  voice:["Billie Holiday","Sarah Vaughan","Ella Fitzgerald","Carmen McRae","Betty Carter","Abbey Lincoln","Nina Simone","Shirley Horn","Anita O'Day","Chris Connor"]
+  voice:["Billie Holiday","Sarah Vaughan","Ella Fitzgerald","Carmen McRae","Betty Carter","Abbey Lincoln","Nina Simone","Shirley Horn","Anita O'Day","Chris Connor"],
+  flute:["Herbie Mann","Hubert Laws","Yusef Lateef","James Moody","Frank Wess","Roland Kirk","Eric Dolphy"]
 };
 
 const songs = [
@@ -455,7 +456,7 @@ const songs = [
     personnel:{ tenor_sax:'Sam Rivers', piano:'Jaki Byard', bass:'Ron Carter', drums:'Tony Williams' }},
 
   { title:'Little B\'s Poem', album:'Components', leader:'Bobby Hutcherson', year:1965, youtubeId:'3X-GdYVT7Y8',
-    personnel:{ vibraphone:'Bobby Hutcherson', alto_sax:'James Spaulding', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Joe Chambers' }},
+    personnel:{ vibraphone:'Bobby Hutcherson', flute:'James Spaulding', piano:'Herbie Hancock', bass:'Ron Carter', drums:'Joe Chambers' }},
 
   { title:'Mode for Joe', album:'Mode for Joe', leader:'Joe Henderson', year:1966, youtubeId:'sk1rT9Xsuc0',
     personnel:{ tenor_sax:'Joe Henderson', trumpet:'Lee Morgan', trombone:'Curtis Fuller', vibraphone:'Bobby Hutcherson', piano:'Cedar Walton', bass:'Ron Carter', drums:'Joe Chambers' }},
