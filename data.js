@@ -10,7 +10,7 @@
 const INSTR_ORDER = [
   'trumpet','cornet','flugelhorn',
   'soprano_sax','alto_sax','tenor_sax','baritone_sax',
-  'trombone','guitar','vibraphone',
+  'trombone','flute','guitar','vibraphone',
   'piano','organ','bass','drums','voice'
 ];
 
@@ -18,8 +18,8 @@ const INSTR_LABEL = {
   trumpet:'Trumpet', cornet:'Cornet', flugelhorn:'Flugelhorn',
   soprano_sax:'Soprano Sax', alto_sax:'Alto Saxophone',
   tenor_sax:'Tenor Saxophone', baritone_sax:'Baritone Sax',
-  trombone:'Trombone', guitar:'Guitar', vibraphone:'Vibraphone',
-  piano:'Piano', organ:'Organ', bass:'Bass', drums:'Drums', voice:'Voice', flute: 'Flute'
+  trombone:'Trombone', flute: 'Flute', guitar:'Guitar', vibraphone:'Vibraphone',
+  piano:'Piano', organ:'Organ', bass:'Bass', drums:'Drums', voice:'Voice'
 };
 
 const POOLS = {
@@ -31,6 +31,7 @@ const POOLS = {
   tenor_sax:['John Coltrane','Sonny Rollins','Joe Henderson','Wayne Shorter','Hank Mobley','Dexter Gordon','Johnny Griffin','Benny Golson','Booker Ervin','Stanley Turrentine','Clifford Jordan','Jimmy Heath','Harold Land','Warne Marsh','Zoot Sims','Tina Brooks','Junior Cook','Charlie Rouse','George Coleman','Lucky Thompson'],
   baritone_sax:['Pepper Adams','Gerry Mulligan','Harry Carney','Lars Gullin','Cecil Payne'],
   trombone:['J.J. Johnson','Curtis Fuller','Slide Hampton','Frank Rosolino','Jimmy Knepper','Grachan Moncur III','Julian Priester','Willie Dennis','Kai Winding','Bob Brookmeyer'],
+  flute:["Herbie Mann","Hubert Laws","Yusef Lateef","James Moody","Frank Wess","Roland Kirk","Eric Dolphy"],
   guitar:['Wes Montgomery','Grant Green','Jim Hall','Kenny Burrell','Joe Pass','Barney Kessel','Herb Ellis','Jimmy Raney','Tal Farlow'],
   vibraphone:['Milt Jackson','Bobby Hutcherson','Gary Burton','Red Norvo','Victor Feldman','Eddie Costa','Lem Winchester','Cal Tjader','Walt Dickerson'],
   piano:['Bill Evans','Paul Bley', 'Harold Mabern', 'Red Garland','Wynton Kelly','Herbie Hancock','McCoy Tyner','Tommy Flanagan','Barry Harris','Cedar Walton','Bobby Timmons','Horace Silver','Thelonious Monk','Bud Powell','Hank Jones','Ahmad Jamal','Stanley Cowell', 'Duke Ellington', 'Victor Feldman', 'Oscar Peterson','Duke Pearson','Richie Powell','Walter Davis Jr.','Sonny Clark','Mal Waldron','Kenny Drew','Herbie Nichols', 'Andrew Hill','Jaki Byard','Joe Zawinul','Elmo Hope','Ray Bryant','Junior Mance','Dave Brubeck','Horace Parlan','Duke Jordan','Duke Pearson'],
@@ -38,7 +39,7 @@ const POOLS = {
   bass:['Paul Chambers','Laymon Jackson', 'Scott LaFaro','Ron Carter','Jimmy Garrison','Charlie Haden','Ray Brown','Percy Heath','Wilbur Ware','Reggie Workman','Bob Cranshaw','Sam Jones','Doug Watkins','Oscar Pettiford','George Morrow','Jymie Merritt','NHØP', 'George Duvivier', 'Aaron Bell', 'Butch Warren','Richard Davis', 'Reggie Johnson', 'Teddy Smith','Steve Davis','Art Davis','Leroy Vinnegar','Chuck Israels','Charles Mingus'],
   drums:['Jimmy Cobb','Philly Joe Jones','Tony Williams','Max Roach','Art Blakey','Elvin Jones','Paul Motian','Roy Haynes','Billy Higgins','Ed Thigpen','Albert Heath','Pete LaRoca','Joe Morello','Frankie Dunlop','Ben Riley','Dannie Richmond','Shadow Wilson','Art Taylor','Louis Hayes','Charlie Persip','Kenny Clarke','Lex Humphries','Al Harewood'],
   voice:["Billie Holiday","Sarah Vaughan","Ella Fitzgerald","Carmen McRae","Betty Carter","Abbey Lincoln","Nina Simone","Shirley Horn","Anita O'Day","Chris Connor"],
-  flute:["Herbie Mann","Hubert Laws","Yusef Lateef","James Moody","Frank Wess","Roland Kirk","Eric Dolphy"]
+
 };
 
 const songs = [
