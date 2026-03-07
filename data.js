@@ -121,7 +121,7 @@ const songs = [
   { title:'Blues March', album:"Moanin'", leader:'Art Blakey & The Jazz Messengers', year:1958, youtubeId:'sOES7AZ-d60',
     personnel:{ trumpet:'Lee Morgan', tenor_sax:'Benny Golson', piano:'Bobby Timmons', bass:'Jymie Merritt', drums:'Art Blakey' }},
   { title:'Free for All', album:'Free for All', leader:'Art Blakey & The Jazz Messengers', year:1964, youtubeId:'GJBLA39spc4',
-    personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Wayne Shorter', piano:'Cedar Walton', bass:'Reggie Workman', drums:'Art Blakey' }},
+    personnel:{ trumpet:'Freddie Hubbard', trombone: 'Curtis Fuller', tenor_sax:'Wayne Shorter', piano:'Cedar Walton', bass:'Reggie Workman', drums:'Art Blakey' }},
   { title:'A Night in Tunisia', album:'A Night in Tunisia', leader:'Art Blakey & The Jazz Messengers', year:1960, youtubeId:'FHKyVJ5YfNU',
     personnel:{ trumpet:'Lee Morgan', tenor_sax:'Wayne Shorter', piano:'Walter Davis Jr.', bass:'Jymie Merritt', drums:'Art Blakey' }},
 
