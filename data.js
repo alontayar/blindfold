@@ -536,6 +536,9 @@ const songs = [
      { title:'To My Wife', album:'Here\'s Jaki', leader:'Jaki Byard', year:1961, youtubeId:'ztyJwsOL_AI',
     personnel:{ piano:'Jaki Byard', bass:'Ron Carter', drums:'Roy Haynes' }},
 
+     { title:'Ecaroh', album:'Horace Silver Trio', leader:'Horace Silver', year:1952, youtubeId:'Wn3VIgRJT2w',
+    personnel:{ piano:'Horace Silver', bass:'Curley Russell', drums:'Art Blakey' }},
+
    
 
    
