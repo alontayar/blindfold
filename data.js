@@ -111,7 +111,7 @@ const songs = [
   { title:'Israel', album:'Explorations', leader:'Bill Evans', year:1961, youtubeId:'HvjK1kdtFfg',
     personnel:{ piano:'Bill Evans', bass:'Scott LaFaro', drums:'Paul Motian' }},
   { title:'Peace Piece', album:'Everybody Digs Bill Evans', leader:'Bill Evans', year:1958, youtubeId:'-49G2-0GBSA',
-    personnel:{ piano:'Bill Evans', bass:'Sam Jones', drums:'Philly Joe Jones' }},
+    personnel:{ piano:'Bill Evans' }},
 
   /* ── ART BLAKEY ───────────────────────────────────────── */
   { title:"Moanin'", album:"Moanin'", leader:'Art Blakey & The Jazz Messengers', year:1958, youtubeId:'Cv9NSR-2DwM',
