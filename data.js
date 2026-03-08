@@ -512,6 +512,9 @@ const songs = [
      { title:'Bachianas Brasileiras', album:'The Sheriff', leader:'Modern Jazz Quartet', year:1963, youtubeId:'hZQTjRJdvig',
     personnel:{ vibraphone:'Milt Jackson', piano:'John Lewis', bass:'Percy Heath', drums:'Connie Kay' }},
 
+     { title:'Brownie Speaks', album:'Maggie\'s Back in Town!!', leader:'Howard McGhee', year:1961, youtubeId:'DWlzL934FpA',
+    personnel:{ trumpet:'Howard McGhee', piano:'Phineas Newborn Jr.', bass:'Leroy Vinnegar', drums:'Shelly Manne' }},
+
      { title:'245', album:'Outward Bound', leader:'Eric Dolphy', year:1960, youtubeId:'FchfzTHD-6Y',
     personnel:{ alto_sax:'Eric Dolphy', trumpet:'Freddie Hubbard', piano:'Jaki Byard', bass:'George Tucker', drums:'Roy Haynes' }},
 
