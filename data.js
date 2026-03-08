@@ -539,6 +539,16 @@ const songs = [
      { title:'Ecaroh', album:'Horace Silver Trio', leader:'Horace Silver', year:1952, youtubeId:'Wn3VIgRJT2w',
     personnel:{ piano:'Horace Silver', bass:'Curley Russell', drums:'Art Blakey' }},
 
+     { title:"Relaxin' at Camarillo", album:'Overseas', leader:'Tommy Flanagan', year:1957, youtubeId:'tL8MU_G5iDo',
+    personnel:{ piano:'Tommy Flanagan', bass:'Wilbur Little', drums:'Elvin Jones' }},
+
+  { title:'Skål Brothers', album:'Overseas', leader:'Tommy Flanagan', year:1957, youtubeId:'IQFrDT8-bfs',
+    personnel:{ piano:'Tommy Flanagan', bass:'Wilbur Little', drums:'Elvin Jones' }},
+
+     { title:'Eclypso', album:'The Cats', leader:'Tommy Flanagan', year:1957, youtubeId:'GMiMxsLhozA',
+    personnel:{ piano:'Tommy Flanagan', tenor_sax:'John Coltrane', trumpet:'Idrees Sulieman', guitar:'Kenny Burrell', bass:'Doug Watkins', drums:'Louis Hayes' }},
+
+
    
 
    
