@@ -8,18 +8,18 @@
    ============================================================ */
 
 const INSTR_ORDER = [
-  'trumpet','cornet','flugelhorn',
+  'voice','trumpet','cornet','flugelhorn',
   'soprano_sax','alto_sax','tenor_sax','baritone_sax',
   'trombone','flute','guitar','vibraphone',
-  'piano','organ','bass','drums','voice'
+  'piano','organ','bass','drums'
 ];
 
 const INSTR_LABEL = {
-  trumpet:'Trumpet', cornet:'Cornet', flugelhorn:'Flugelhorn',
+  voice:'Voice', trumpet:'Trumpet', cornet:'Cornet', flugelhorn:'Flugelhorn',
   soprano_sax:'Soprano Sax', alto_sax:'Alto Saxophone',
   tenor_sax:'Tenor Saxophone', baritone_sax:'Baritone Sax',
   trombone:'Trombone', flute: 'Flute', guitar:'Guitar', vibraphone:'Vibraphone',
-  piano:'Piano', organ:'Organ', bass:'Bass', drums:'Drums', voice:'Voice'
+  piano:'Piano', organ:'Organ', bass:'Bass', drums:'Drums'
 };
 
 const POOLS = {
