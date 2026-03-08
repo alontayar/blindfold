@@ -506,6 +506,9 @@ const songs = [
      { title:'Lady Sings the Blues', album:'Herbie Nichols Trio', leader:'Herbie Nichols', year:1955, youtubeId:'de4vD4HiATI',
     personnel:{ piano:'Herbie Nichols', bass:'Al McKibbon', drums:'Max Roach' }},
 
+     { title:'Brownie Speaks', album:'Memorial Album', leader:'Clifford Brown', year:1953, youtubeId:'ypn41_AkOjA',
+    personnel:{ trumpet:'Clifford Brown', alto_sax:'Lou Donaldson', piano:'Elmo Hope', bass:'Percy Heath', drums:'Philly Joe Jones' }},
+
    
 
    
