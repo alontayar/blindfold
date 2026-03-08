@@ -492,6 +492,12 @@ const songs = [
      { title:'Honeysuckle Rose', album:'The Ivory Hunters', leader:'Bob Brookmeyer & Bill Evans', year:1959, youtubeId:'xLdO7tYcfNQ',
     personnel:{ piano:'Bill Evans', piano_2:'Bob Brookmeyer', bass:'Percy Heath', drums:'Connie Kay' }},
 
+     { title:'Focus on Sanity', album:'The Avant-Garde', leader:'John Coltrane & Don Cherry', year:1960, youtubeId:'iMEshwRb8IM',
+    personnel:{ tenor_sax:'John Coltrane', cornet:'Don Cherry', bass:'Percy Heath', drums:'Ed Blackwell' }},
+
+  { title:'The Blessing', album:'The Avant-Garde', leader:'John Coltrane & Don Cherry', year:1960, youtubeId:'_9wyp3wQQ1Q',
+    personnel:{ soprano_sax:'John Coltrane', cornet:'Don Cherry', bass:'Charlie Haden', drums:'Ed Blackwell' }},
+
    
 
    
