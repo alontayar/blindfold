@@ -533,6 +533,9 @@ const songs = [
      { title:'Slippery', album:'Something for Lester', leader:'Ray Brown', year:1977, youtubeId:'ktdpsWc_5qo',
     personnel:{ bass:'Ray Brown', piano:'Cedar Walton', drums:'Elvin Jones' }},
 
+     { title:'To My Wife', album:'Here\'s Jaki', leader:'Jaki Byard', year:1961, youtubeId:'ztyJwsOL_AI',
+    personnel:{ piano:'Jaki Byard', bass:'Ron Carter', drums:'Roy Haynes' }},
+
    
 
    
