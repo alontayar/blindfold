@@ -358,10 +358,10 @@ const songs = [
     personnel:{ alto_sax:'Lee Konitz', bass:'Sonny Dallas', drums:'Elvin Jones' }},
 
   { title:'Just Friends', album:'Coltrane Time', leader:'John Coltrane', year:1958, youtubeId:'ujiNUzvWid8',
-    personnel:{ tenor_sax:'John Coltrane', trumpet: 'Kenny Dorham', piano:'Cecil Taylor', bass:'Chuck Isreals', drums:'Louis Hayes' }},
+    personnel:{ tenor_sax:'John Coltrane', trumpet: 'Kenny Dorham', piano:'Cecil Taylor', bass:'Chuck Israels', drums:'Louis Hayes' }},
 
   { title:'Like Someone In Love', album:'Coltrane Time', leader:'John Coltrane', year:1958, youtubeId:'yB9Ho9UY7pU',
-    personnel:{ tenor_sax:'John Coltrane', trumpet: 'Kenny Dorham', piano:'Cecil Taylor', bass:'Chuck Isreals', drums:'Louis Hayes' }},
+    personnel:{ tenor_sax:'John Coltrane', trumpet: 'Kenny Dorham', piano:'Cecil Taylor', bass:'Chuck Israels', drums:'Louis Hayes' }},
 
   { title:'On The Trail', album:'Four!', leader:'Joe Henderson', year:1968, youtubeId:'uGFqtChmFr0',
     personnel:{ tenor_sax:'Joe Henderson', piano:'Wynton Kelly', bass:'Paul Chambers', drums:'Jimmy Cobb' }},
@@ -480,7 +480,7 @@ const songs = [
     personnel:{ tenor_sax:'Joe Henderson', trumpet:'Lee Morgan', trombone:'Curtis Fuller', vibraphone:'Bobby Hutcherson', piano:'Cedar Walton', bass:'Ron Carter', drums:'Joe Chambers' }},
 
   { title:'Nomad', album:'Idle Moments', leader:'Grant Green', year:1963, youtubeId:'5jvP42Q3guw',
-    personnel:{ guitar:'Grant Green', tenor_sax:'Joe Henderson', vibes:'Bobby Hutcherson', piano:'Duke Pearson', bass:'Bob Cranshaw', drums:'Al Harewood' }},
+    personnel:{ guitar:'Grant Green', tenor_sax:'Joe Henderson', vibraphone:'Bobby Hutcherson', piano:'Duke Pearson', bass:'Bob Cranshaw', drums:'Al Harewood' }},
 
      { title:'De-Dah', album:'Here\'s Hope!', leader:'Elmo Hope', year:1961, youtubeId:'CPkK8c-BN0Y',
     personnel:{ piano:'Elmo Hope', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
