@@ -489,7 +489,7 @@ const songs = [
     personnel:{ alto_sax:'Jackie McLean', trumpet:'Tommy Turrentine', piano:'Sonny Clark', bass:'Butch Warren', drums:'Billy Higgins' }},
 
      { title:'Honeysuckle Rose', album:'The Ivory Hunters', leader:'Bob Brookmeyer & Bill Evans', year:1959, youtubeId:'xLdO7tYcfNQ',
-    personnel:{ piano:'Bill Evans', piano_2:'Bob Brookmeyer', bass:'Percy Heath', drums:'Connie Kay' }},
+    personnel:{ piano:'Bill Evans', piano:'Bob Brookmeyer', bass:'Percy Heath', drums:'Connie Kay' }},
 
      { title:'Focus on Sanity', album:'The Avant-Garde', leader:'John Coltrane & Don Cherry', year:1960, youtubeId:'iMEshwRb8IM',
     personnel:{ tenor_sax:'John Coltrane', cornet:'Don Cherry', bass:'Percy Heath', drums:'Ed Blackwell' }},
