@@ -527,7 +527,7 @@ const songs = [
      { title:"Mama 'G'", album:'Kelly Great', leader:'Wynton Kelly', year:1959, youtubeId:'bY0kK3Pl638',
     personnel:{ piano:'Wynton Kelly', trumpet:'Lee Morgan', tenor_sax:'Wayne Shorter', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
 
-     { title:'Third Plane', album:'Third Plane', leader:'Ron Carter/Herbie Hancock/Tony Williams', year:1968, youtubeId:'9hKFkCtiFZs',
+     { title:'Third Plane', album:'Third Plane', leader:'Ron Carter/Herbie Hancock/Tony Williams', year:1977, youtubeId:'9hKFkCtiFZs',
     personnel:{ bass:'Ron Carter', piano:'Herbie Hancock', drums:'Tony Williams' }},
 
    
