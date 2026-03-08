@@ -524,6 +524,9 @@ const songs = [
   { title:'Sugar Ray', album:'We Three', leader:'Roy Haynes/Phineas Newborn Jr./Paul Chambers', year:1958, youtubeId:'rdQl9e6RSjk',
     personnel:{ piano:'Phineas Newborn Jr.', bass:'Paul Chambers', drums:'Roy Haynes' }},
 
+     { title:"Mama 'G'", album:'Kelly Great', leader:'Wynton Kelly', year:1959, youtubeId:'bY0kK3Pl638',
+    personnel:{ piano:'Wynton Kelly', trumpet:'Lee Morgan', tenor_sax:'Wayne Shorter', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
+
    
 
    
