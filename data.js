@@ -512,6 +512,9 @@ const songs = [
      { title:'Bachianas Brasileiras', album:'The Sheriff', leader:'Modern Jazz Quartet', year:1963, youtubeId:'hZQTjRJdvig',
     personnel:{ vibraphone:'Milt Jackson', piano:'John Lewis', bass:'Percy Heath', drums:'Connie Kay' }},
 
+     { title:'245', album:'Outward Bound', leader:'Eric Dolphy', year:1960, youtubeId:'FchfzTHD-6Y',
+    personnel:{ alto_sax:'Eric Dolphy', trumpet:'Freddie Hubbard', piano:'Jaki Byard', bass:'George Tucker', drums:'Roy Haynes' }},
+
    
 
    
