@@ -509,6 +509,9 @@ const songs = [
      { title:'Brownie Speaks', album:'Memorial Album', leader:'Clifford Brown', year:1953, youtubeId:'ypn41_AkOjA',
     personnel:{ trumpet:'Clifford Brown', alto_sax:'Lou Donaldson', piano:'Elmo Hope', bass:'Percy Heath', drums:'Philly Joe Jones' }},
 
+     { title:'Bachianas Brasileiras', album:'The Sheriff', leader:'Modern Jazz Quartet', year:1963, youtubeId:'hZQTjRJdvig',
+    personnel:{ vibraphone:'Milt Jackson', piano:'John Lewis', bass:'Percy Heath', drums:'Connie Kay' }},
+
    
 
    
