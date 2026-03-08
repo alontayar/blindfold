@@ -548,7 +548,8 @@ const songs = [
      { title:'Eclypso', album:'The Cats', leader:'Tommy Flanagan', year:1957, youtubeId:'GMiMxsLhozA',
     personnel:{ piano:'Tommy Flanagan', tenor_sax:'John Coltrane', trumpet:'Idrees Sulieman', guitar:'Kenny Burrell', bass:'Doug Watkins', drums:'Louis Hayes' }},
 
-
+  { title:'Raggedy Ann', album:'Take Twelve', leader:'Lee Morgan', year:1962, youtubeId:'z7k3WFRkMIc',
+    personnel:{ trumpet:'Lee Morgan', tenor_sax:'Clifford Jordan', piano:'Barry Harris', bass:'Bob Cranshaw', drums:'Louis Hayes' }},
    
 
    
