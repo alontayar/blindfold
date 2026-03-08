@@ -503,6 +503,9 @@ const songs = [
      { title:"The Party's Over", album:'Blossom Dearie Sings Comden and Green', leader:'Blossom Dearie', year:1959, youtubeId:'jFfwUHR2guY',
     personnel:{ voice:'Blossom Dearie', piano:'Blossom Dearie', guitar:'Kenny Burrell', bass:'Ray Brown', drums:'Ed Thigpen' }},
 
+     { title:'Lady Sings the Blues', album:'Herbie Nichols Trio', leader:'Herbie Nichols', year:1955, youtubeId:'de4vD4HiATI',
+    personnel:{ piano:'Herbie Nichols', bass:'Al McKibbon', drums:'Max Roach' }},
+
    
 
    
