@@ -530,6 +530,9 @@ const songs = [
      { title:'Third Plane', album:'Third Plane', leader:'Ron Carter/Herbie Hancock/Tony Williams', year:1977, youtubeId:'9hKFkCtiFZs',
     personnel:{ bass:'Ron Carter', piano:'Herbie Hancock', drums:'Tony Williams' }},
 
+     { title:'Slippery', album:'Something for Lester', leader:'Ray Brown', year:1977, youtubeId:'ktdpsWc_5qo',
+    personnel:{ bass:'Ray Brown', piano:'Cedar Walton', drums:'Elvin Jones' }},
+
    
 
    
