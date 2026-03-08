@@ -38,8 +38,7 @@ const POOLS = {
   organ:['Jimmy Smith','Jack McDuff','Larry Young','Shirley Scott','Don Patterson','Charles Earland','Jimmy McGriff','Big John Patton'],
   bass:['Paul Chambers','Laymon Jackson', 'Scott LaFaro','Ron Carter','Jimmy Garrison','Charlie Haden','Ray Brown','Percy Heath','Wilbur Ware','Reggie Workman','Bob Cranshaw','Sam Jones','Doug Watkins','Oscar Pettiford','George Morrow','Jymie Merritt','NHØP', 'George Duvivier', 'Aaron Bell', 'Butch Warren','Richard Davis', 'Reggie Johnson', 'Teddy Smith','Steve Davis','Art Davis','Leroy Vinnegar','Chuck Israels','Charles Mingus'],
   drums:['Jimmy Cobb','Philly Joe Jones','Tony Williams','Max Roach','Art Blakey','Elvin Jones','Paul Motian','Roy Haynes','Billy Higgins','Ed Thigpen','Albert Heath','Pete LaRoca','Joe Morello','Frankie Dunlop','Ben Riley','Dannie Richmond','Shadow Wilson','Art Taylor','Louis Hayes','Charlie Persip','Kenny Clarke','Lex Humphries','Al Harewood'],
-  voice:["Billie Holiday","Sarah Vaughan","Ella Fitzgerald","Carmen McRae","Betty Carter","Abbey Lincoln","Nina Simone","Shirley Horn","Anita O'Day","Chris Connor"],
-
+  voice:['Billie Holiday','Sarah Vaughan','Blossom Dearie','Ella Fitzgerald','Carmen McRae','Betty Carter','Abbey Lincoln','Nina Simone','Shirley Horn','Anita O\'Day','Chris Connor'],
 };
 
 const songs = [
@@ -501,7 +500,8 @@ const songs = [
      { title:'Angola', album:'The Soothsayer', leader:'Wayne Shorter', year:1965, youtubeId:'IbE3jlLhJL8',
     personnel:{ tenor_sax:'Wayne Shorter', trumpet:'Freddie Hubbard', alto_sax:'James Spaulding', piano:'McCoy Tyner', bass:'Ron Carter', drums:'Tony Williams' }},
 
-   
+     { title:"The Party's Over", album:'Blossom Dearie Sings Comden and Green', leader:'Blossom Dearie', year:1959, youtubeId:'jFfwUHR2guY',
+    personnel:{ voice:'Blossom Dearie', piano:'Blossom Dearie', guitar:'Kenny Burrell', bass:'Ray Brown', drums:'Ed Thigpen' }},
 
    
 
