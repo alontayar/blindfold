@@ -498,6 +498,9 @@ const songs = [
   { title:'The Blessing', album:'The Avant-Garde', leader:'John Coltrane & Don Cherry', year:1960, youtubeId:'_9wyp3wQQ1Q',
     personnel:{ soprano_sax:'John Coltrane', cornet:'Don Cherry', bass:'Charlie Haden', drums:'Ed Blackwell' }},
 
+     { title:'Angola', album:'The Soothsayer', leader:'Wayne Shorter', year:1965, youtubeId:'IbE3jlLhJL8',
+    personnel:{ tenor_sax:'Wayne Shorter', trumpet:'Freddie Hubbard', alto_sax:'James Spaulding', piano:'McCoy Tyner', bass:'Ron Carter', drums:'Tony Williams' }},
+
    
 
    
