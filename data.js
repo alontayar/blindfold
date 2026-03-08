@@ -518,6 +518,12 @@ const songs = [
      { title:'245', album:'Outward Bound', leader:'Eric Dolphy', year:1960, youtubeId:'FchfzTHD-6Y',
     personnel:{ alto_sax:'Eric Dolphy', trumpet:'Freddie Hubbard', piano:'Jaki Byard', bass:'George Tucker', drums:'Roy Haynes' }},
 
+     { title:'Reflection', album:'We Three', leader:'Roy Haynes/Phineas Newborn Jr./Paul Chambers', year:1958, youtubeId:'LdYr1WCuIKw',
+    personnel:{ piano:'Phineas Newborn Jr.', bass:'Paul Chambers', drums:'Roy Haynes' }},
+
+  { title:'Sugar Ray', album:'We Three', leader:'Roy Haynes/Phineas Newborn Jr./Paul Chambers', year:1958, youtubeId:'rdQl9e6RSjk',
+    personnel:{ piano:'Phineas Newborn Jr.', bass:'Paul Chambers', drums:'Roy Haynes' }},
+
    
 
    
