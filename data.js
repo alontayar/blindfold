@@ -577,7 +577,8 @@ const songs = [
   { title:'After Hours', album:'Sonny Side Up', leader:'Dizzy Gillespie', year:1957, youtubeId:'Ipb3Cq6Mw6U',
     personnel:{ trumpet:'Dizzy Gillespie', tenor_sax:'Sonny Stitt', tenor_sax_2:'Sonny Rollins', piano:'Ray Bryant', bass:'Tommy Bryant', drums:'Charlie Persip' }},
 
-   
+  { title:'Uh Huh', album:'Workout', leader:'Hank Mobley', year:1961, youtubeId:'trGhPlcwSmA',
+    personnel:{ tenor_sax:'Hank Mobley', guitar:'Grant Green', piano:'Wynton Kelly', bass:'Paul Chambers', drums:'Philly Joe Jones' }},   
 
    
 ]; /* end songs */
