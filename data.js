@@ -580,5 +580,15 @@ const songs = [
   { title:'Uh Huh', album:'Workout', leader:'Hank Mobley', year:1961, youtubeId:'trGhPlcwSmA',
     personnel:{ tenor_sax:'Hank Mobley', guitar:'Grant Green', piano:'Wynton Kelly', bass:'Paul Chambers', drums:'Philly Joe Jones' }},   
 
+
+  { title:'The Best Things in Life Are Free', album:'Workout', leader:'Hank Mobley', year:1961, youtubeId:'k9E4xQ6rzKI',
+    personnel:{ tenor_sax:'Hank Mobley', guitar:'Grant Green', piano:'Wynton Kelly', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
+
+
+  { title:'I Should Care', album:'Another Workout', leader:'Hank Mobley', year:1961, youtubeId:'7qMFusWD1LM',
+    personnel:{ tenor_sax:'Hank Mobley', piano:'Wynton Kelly', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
+
+  { title:"Hank's Other Soul", album:'Another Workout', leader:'Hank Mobley', year:1961, youtubeId:'k3noQ6dfw3E',
+    personnel:{ tenor_sax:'Hank Mobley', piano:'Wynton Kelly', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
    
 ]; /* end songs */
