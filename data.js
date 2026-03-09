@@ -550,6 +550,9 @@ const songs = [
 
   { title:'Raggedy Ann', album:'Take Twelve', leader:'Lee Morgan', year:1962, youtubeId:'z7k3WFRkMIc',
     personnel:{ trumpet:'Lee Morgan', tenor_sax:'Clifford Jordan', piano:'Barry Harris', bass:'Bob Cranshaw', drums:'Louis Hayes' }},
+
+     { title:'Wives and Lovers', album:'Solid', leader:'Grant Green', year:1964, youtubeId:'wHfCVbBRvRo',
+    personnel:{ guitar:'Grant Green', piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Elvin Jones' }},
    
 
    
