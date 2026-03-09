@@ -9,7 +9,7 @@
 
 const INSTR_ORDER = [
   'voice','trumpet','cornet','flugelhorn',
-  'soprano_sax','alto_sax','tenor_sax','baritone_sax',
+  'soprano_sax','alto_sax','tenor_sax','tenor_sax_2','baritone_sax',
   'trombone','flute','guitar','vibraphone',
   'piano','piano_2','organ','bass','drums'
 ];
@@ -17,7 +17,7 @@ const INSTR_ORDER = [
 const INSTR_LABEL = {
   voice:'Voice', trumpet:'Trumpet', cornet:'Cornet', flugelhorn:'Flugelhorn',
   soprano_sax:'Soprano Sax', alto_sax:'Alto Saxophone',
-  tenor_sax:'Tenor Saxophone', baritone_sax:'Baritone Sax',
+  tenor_sax:'Tenor Saxophone', tenor_sax_2: 'Tenor Saxophone', baritone_sax:'Baritone Sax',
   trombone:'Trombone', flute: 'Flute', guitar:'Guitar', vibraphone:'Vibraphone',
   piano:'Piano', piano_2:'Piano', organ:'Organ', bass:'Bass', drums:'Drums'
 };
@@ -29,6 +29,7 @@ const POOLS = {
   soprano_sax:['John Coltrane','Steve Lacy','Sidney Bechet','Wayne Shorter','Roland Kirk','Sam Rivers','Dave Liebman'],
   alto_sax:['Cannonball Adderley','Lee Konitz','Phil Woods','Jackie McLean','Art Pepper','Sonny Stitt','Paul Desmond','Eric Dolphy','Charlie Parker','Ornette Coleman','John Handy','Frank Strozier','Gigi Gryce','Lou Donaldson','Charles McPherson', 'Gary Bartz'],
   tenor_sax:['John Coltrane','Sonny Rollins','Joe Henderson','Wayne Shorter','Hank Mobley','Dexter Gordon','Johnny Griffin','Benny Golson','Booker Ervin','Stanley Turrentine','Clifford Jordan','Jimmy Heath','Harold Land','Warne Marsh','Zoot Sims','Tina Brooks','Junior Cook','Charlie Rouse','George Coleman','Lucky Thompson'],
+  tenor_sax_2:['John Coltrane','Sonny Rollins','Joe Henderson','Wayne Shorter','Hank Mobley','Dexter Gordon','Johnny Griffin','Benny Golson','Booker Ervin','Stanley Turrentine','Clifford Jordan','Jimmy Heath','Harold Land','Warne Marsh','Zoot Sims','Tina Brooks','Junior Cook','Charlie Rouse','George Coleman','Lucky Thompson'],
   baritone_sax:['Pepper Adams','Gerry Mulligan','Harry Carney','Lars Gullin','Cecil Payne'],
   trombone:['J.J. Johnson','Curtis Fuller','Slide Hampton','Frank Rosolino','Jimmy Knepper','Grachan Moncur III','Julian Priester','Willie Dennis','Kai Winding','Bob Brookmeyer'],
   flute:['Herbie Mann','Hubert Laws','Yusef Lateef','James Moody','Frank Wess','Roland Kirk','Eric Dolphy'],
@@ -566,6 +567,9 @@ const songs = [
 
      { title:"Monk's Blues", album:'Live at Newport', leader:'McCoy Tyner', year:1963, youtubeId:'21Hobs7xxhs',
     personnel:{ piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Mickey Roker' }},
+
+     { title:'Tenor Madness', album:'Tenor Madness', leader:'Sonny Rollins', year:1956, youtubeId:'EMhnvXgdGGs',
+    personnel:{ tenor_sax:'Sonny Rollins', tenor_sax_2:'John Coltrane', piano:'Red Garland', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
 
    
 
