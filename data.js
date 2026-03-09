@@ -553,6 +553,9 @@ const songs = [
 
      { title:'Wives and Lovers', album:'Solid', leader:'Grant Green', year:1964, youtubeId:'wHfCVbBRvRo',
     personnel:{ guitar:'Grant Green', piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Elvin Jones' }},
+
+     { title:'Head Start', album:'Happenings', leader:'Bobby Hutcherson', year:1966, youtubeId:'ZTWm3OMDBkc',
+    personnel:{ vibraphone:'Bobby Hutcherson', piano:'Herbie Hancock', bass:'Bob Cranshaw', drums:'Joe Chambers' }},
    
 
    
