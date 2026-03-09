@@ -290,6 +290,9 @@ const songs = [
   { title:'Mr. Lucky (Alt. Take)', album:'Out of This World', leader:'Pepper Adams/Donald Byrd', year:1961, youtubeId:'dbCE4Rb6X6s',
     personnel:{ trumpet:'Donald Byrd', baritone_sax:'Pepper Adams', piano:'Herbie Hancock', bass:'Laymon Jackson', drums:'Jimmy Cobb' }},
 
+     { title:"I'm An Old Cowhand", album:'Out of This World', leader:'Pepper Adams/Donald Byrd', year:1961, youtubeId:'HGSMpmo5pnc',
+    personnel:{ trumpet:'Donald Byrd', baritone_sax:'Pepper Adams', piano:'Herbie Hancock', bass:'Laymon Jackson', drums:'Jimmy Cobb' }},
+
   { title:'One for Five', album:'Bossa Nova Bacchanal', leader:'Charlie Rouse', year:1965, youtubeId:'r5kg1cNU_Z0',
     personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Charlie Rouse', piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Billy Higgins' }},
 
