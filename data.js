@@ -11,7 +11,7 @@ const INSTR_ORDER = [
   'voice','trumpet','cornet','flugelhorn',
   'soprano_sax','alto_sax','tenor_sax','baritone_sax',
   'trombone','flute','guitar','vibraphone',
-  'piano','organ','bass','drums'
+  'piano','piano_2','organ','bass','drums'
 ];
 
 const INSTR_LABEL = {
@@ -19,7 +19,7 @@ const INSTR_LABEL = {
   soprano_sax:'Soprano Sax', alto_sax:'Alto Saxophone',
   tenor_sax:'Tenor Saxophone', baritone_sax:'Baritone Sax',
   trombone:'Trombone', flute: 'Flute', guitar:'Guitar', vibraphone:'Vibraphone',
-  piano:'Piano', organ:'Organ', bass:'Bass', drums:'Drums'
+  piano:'Piano', piano_2:'Piano', organ:'Organ', bass:'Bass', drums:'Drums'
 };
 
 const POOLS = {
@@ -35,6 +35,7 @@ const POOLS = {
   guitar:['Wes Montgomery','Grant Green','Jim Hall','Kenny Burrell','Joe Pass','Barney Kessel','Herb Ellis','Jimmy Raney','Tal Farlow'],
   vibraphone:['Milt Jackson','Bobby Hutcherson','Gary Burton','Red Norvo','Victor Feldman','Eddie Costa','Lem Winchester','Cal Tjader','Walt Dickerson'],
   piano:['Bill Evans','Paul Bley', 'Harold Mabern', 'Red Garland','Wynton Kelly','Herbie Hancock','McCoy Tyner','Tommy Flanagan','Barry Harris','Cedar Walton','Bobby Timmons','Horace Silver','Thelonious Monk','Bud Powell','Hank Jones','Ahmad Jamal','Stanley Cowell', 'Duke Ellington', 'Victor Feldman', 'Oscar Peterson','Richie Powell','Walter Davis Jr.','Sonny Clark','Mal Waldron','Kenny Drew','Herbie Nichols', 'Andrew Hill','Jaki Byard','Joe Zawinul','Elmo Hope','Ray Bryant','Junior Mance','Dave Brubeck','Horace Parlan','Duke Jordan','Duke Pearson'],
+  piano_2:['Bill Evans','Paul Bley', 'Harold Mabern', 'Red Garland','Wynton Kelly','Herbie Hancock','McCoy Tyner','Tommy Flanagan','Barry Harris','Cedar Walton','Bobby Timmons','Horace Silver','Thelonious Monk','Bud Powell','Hank Jones','Ahmad Jamal','Stanley Cowell', 'Duke Ellington', 'Victor Feldman', 'Oscar Peterson','Richie Powell','Walter Davis Jr.','Sonny Clark','Mal Waldron','Kenny Drew','Herbie Nichols', 'Andrew Hill','Jaki Byard','Joe Zawinul','Elmo Hope','Ray Bryant','Junior Mance','Dave Brubeck','Horace Parlan','Duke Jordan','Duke Pearson'],
   organ:['Jimmy Smith','Jack McDuff','Larry Young','Shirley Scott','Don Patterson','Charles Earland','Jimmy McGriff','Big John Patton'],
   bass:['Paul Chambers','Laymon Jackson', 'Scott LaFaro','Ron Carter','Jimmy Garrison','Charlie Haden','Ray Brown','Percy Heath','Wilbur Ware','Reggie Workman','Bob Cranshaw','Sam Jones','Doug Watkins','Oscar Pettiford','George Morrow','Jymie Merritt','NHØP', 'George Duvivier', 'Aaron Bell', 'Butch Warren','Richard Davis', 'Reggie Johnson', 'Teddy Smith','Steve Davis','Art Davis','Leroy Vinnegar','Chuck Israels','Charles Mingus'],
   drums:['Jimmy Cobb','Philly Joe Jones','Tony Williams','Max Roach','Art Blakey','Elvin Jones','Paul Motian','Roy Haynes','Billy Higgins','Ed Thigpen','Albert Heath','Pete LaRoca','Joe Morello','Frankie Dunlop','Ben Riley','Dannie Richmond','Shadow Wilson','Art Taylor','Louis Hayes','Charlie Persip','Kenny Clarke','Lex Humphries','Al Harewood'],
@@ -492,7 +493,7 @@ const songs = [
     personnel:{ alto_sax:'Jackie McLean', trumpet:'Tommy Turrentine', piano:'Sonny Clark', bass:'Butch Warren', drums:'Billy Higgins' }},
 
      { title:'Honeysuckle Rose', album:'The Ivory Hunters', leader:'Bob Brookmeyer & Bill Evans', year:1959, youtubeId:'xLdO7tYcfNQ',
-    personnel:{ piano:'Bill Evans', piano:'Bob Brookmeyer', bass:'Percy Heath', drums:'Connie Kay' }},
+    personnel:{ piano:'Bill Evans', piano_2:'Bob Brookmeyer', bass:'Percy Heath', drums:'Connie Kay' }},
 
      { title:'Focus on Sanity', album:'The Avant-Garde', leader:'John Coltrane & Don Cherry', year:1960, youtubeId:'iMEshwRb8IM',
     personnel:{ tenor_sax:'John Coltrane', cornet:'Don Cherry', bass:'Percy Heath', drums:'Ed Blackwell' }},
