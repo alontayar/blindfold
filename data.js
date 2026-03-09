@@ -556,7 +556,12 @@ const songs = [
 
      { title:'Head Start', album:'Happenings', leader:'Bobby Hutcherson', year:1966, youtubeId:'ZTWm3OMDBkc',
     personnel:{ vibraphone:'Bobby Hutcherson', piano:'Herbie Hancock', bass:'Bob Cranshaw', drums:'Joe Chambers' }},
-   
+
+     { title:'Alone Together', album:'Easy Walker', leader:'Stanley Turrentine', year:1968, youtubeId:'UJ79inGG0UI',
+    personnel:{ tenor_sax:'Stanley Turrentine', piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Mickey Roker' }},
+
+     { title:"Monk's Blues", album:'Live at Newport', leader:'McCoy Tyner', year:1963, youtubeId:'21Hobs7xxhs',
+    personnel:{ piano:'McCoy Tyner', bass:'Bob Cranshaw', drums:'Mickey Roker' }},
 
    
 
