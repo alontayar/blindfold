@@ -571,6 +571,12 @@ const songs = [
      { title:'Tenor Madness', album:'Tenor Madness', leader:'Sonny Rollins', year:1956, youtubeId:'EMhnvXgdGGs',
     personnel:{ tenor_sax:'Sonny Rollins', tenor_sax_2:'John Coltrane', piano:'Red Garland', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
 
+     { title:'The Eternal Triangle', album:'Sonny Side Up', leader:'Dizzy Gillespie', year:1957, youtubeId:'zR_4mkMK9XQ',
+    personnel:{ trumpet:'Dizzy Gillespie', tenor_sax:'Sonny Stitt', tenor_sax_2:'Sonny Rollins', piano:'Ray Bryant', bass:'Tommy Bryant', drums:'Charlie Persip' }},
+
+  { title:'After Hours', album:'Sonny Side Up', leader:'Dizzy Gillespie', year:1957, youtubeId:'Ipb3Cq6Mw6U',
+    personnel:{ trumpet:'Dizzy Gillespie', tenor_sax:'Sonny Stitt', tenor_sax_2:'Sonny Rollins', piano:'Ray Bryant', bass:'Tommy Bryant', drums:'Charlie Persip' }},
+
    
 
    
