@@ -590,5 +590,9 @@ const songs = [
 
   { title:"Hank's Other Soul", album:'Another Workout', leader:'Hank Mobley', year:1961, youtubeId:'k3noQ6dfw3E',
     personnel:{ tenor_sax:'Hank Mobley', piano:'Wynton Kelly', bass:'Paul Chambers', drums:'Philly Joe Jones' }},
+
+  { title:"No Smokin'", album:'The Stylings of Silver', leader:'Horace Silver', year:1957, youtubeId:'hTwvGaX8xtQ',
+    personnel:{ piano:'Horace Silver', trumpet:'Art Farmer', tenor_sax:'Hank Mobley', bass:'Teddy Kotick', drums:'Louis Hayes' }},
+
    
 ]; /* end songs */
