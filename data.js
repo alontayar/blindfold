@@ -597,5 +597,11 @@ const songs = [
      { title:"Life's a Little Blue", album:'Booker Little', leader:'Booker Little', year:1960, youtubeId:'1iLiPMrR4Xc',
     personnel:{ trumpet:'Booker Little', piano:'Wynton Kelly', bass:'Scott LaFaro', drums:'Roy Haynes' }},
 
+     { title:'Bouncing with Bud', album:"Mobley's Message", leader:'Hank Mobley', year:1956, youtubeId:'NSkRxpF7nbw',
+    personnel:{ tenor_sax:'Hank Mobley', trumpet:'Donald Byrd', piano:'Barry Harris', bass:'Doug Watkins', drums:'Art Taylor' }},
+
+  { title:'Au Privave', album:"Mobley's Message", leader:'Hank Mobley', year:1956, youtubeId:'EvjjgQCYsk0',
+    personnel:{ tenor_sax:'Hank Mobley', trumpet:'Donald Byrd', alto_sax:'Jackie McLean', piano:'Barry Harris', bass:'Doug Watkins', drums:'Art Taylor' }},
+
    
 ]; /* end songs */
