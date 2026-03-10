@@ -594,5 +594,8 @@ const songs = [
   { title:"No Smokin'", album:'The Stylings of Silver', leader:'Horace Silver', year:1957, youtubeId:'hTwvGaX8xtQ',
     personnel:{ piano:'Horace Silver', trumpet:'Art Farmer', tenor_sax:'Hank Mobley', bass:'Teddy Kotick', drums:'Louis Hayes' }},
 
+     { title:"Life's a Little Blue", album:'Booker Little', leader:'Booker Little', year:1960, youtubeId:'1iLiPMrR4Xc',
+    personnel:{ trumpet:'Booker Little', piano:'Wynton Kelly', bass:'Scott LaFaro', drums:'Roy Haynes' }},
+
    
 ]; /* end songs */
