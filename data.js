@@ -606,5 +606,16 @@ const songs = [
   { title:'Countdown #2', album:'The Prestige Recordings', leader:'John Coltrane & Wilbur Harden', year:1958, youtubeId:'OMZMvERd-Ag',
     personnel:{ tenor_sax:'John Coltrane', flugelhorn:'Wilbur Harden', piano:'Tommy Flanagan', bass:'Doug Watkins', drums:'Louis Hayes' }},
 
+     { title:'Pretty Brown', album:'Elvin!', leader:'Elvin Jones', year:1961, youtubeId:'xMu85G5n9Go',
+    personnel:{ piano:'Hank Jones', bass:'Art Davis', drums:'Elvin Jones' }},
+
+        { title:'Four And Six', album:'Elvin!', leader:'Elvin Jones', year:1961, youtubeId:'E4SKUBcZY0I',
+    personnel:{ piano:'Hank Jones', bass:'Art Davis', drums:'Elvin Jones' }},
+
+     { title:'Keepin\' Up with the Joneses', album:'Keepin\' Up with the Joneses', leader:'The Jones Brothers', year:1958, youtubeId:'V_aw7jSKkxg',
+    personnel:{ flugelhorn:'Thad Jones', piano:'Hank Jones', bass:'Eddie Jones', drums:'Elvin Jones' }},
+
+   
+
    
 ]; /* end songs */
