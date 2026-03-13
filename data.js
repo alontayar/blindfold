@@ -615,6 +615,13 @@ const songs = [
      { title:'Keepin\' Up with the Joneses', album:'Keepin\' Up with the Joneses', leader:'The Jones Brothers', year:1958, youtubeId:'V_aw7jSKkxg',
     personnel:{ flugelhorn:'Thad Jones', piano:'Hank Jones', bass:'Eddie Jones', drums:'Elvin Jones' }},
 
+  { title:'Bloomdido', album:'Bird and Diz', leader:'Charlie Parker', year:1950, youtubeId:'wAGFm8uUtY8',
+    personnel:{ alto_sax:'Charlie Parker', trumpet:'Dizzy Gillespie', piano:'Thelonious Monk', bass:'Curley Russell', drums:'Buddy Rich' }},
+
+     { title:'My Melancholy Baby', album:'Bird and Diz', leader:'Charlie Parker', year:1950, youtubeId:'Mr6coB5EAHY',
+    personnel:{ alto_sax:'Charlie Parker', trumpet:'Dizzy Gillespie', piano:'Thelonious Monk', bass:'Curley Russell', drums:'Buddy Rich' }},
+
+
    
 
    
