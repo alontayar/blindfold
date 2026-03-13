@@ -25,7 +25,7 @@ const INSTR_LABEL = {
 const POOLS = {
   trumpet:['Miles Davis','Clifford Brown','Lee Morgan','Freddie Hubbard','Chet Baker','Kenny Dorham','Art Farmer','Donald Byrd','Woody Shaw','Blue Mitchell','Clark Terry','Dizzy Gillespie','Booker Little','Thad Jones','Nat Adderley','Charles Tolliver'],
   cornet:['Don Cherry','Nat Adderley','Clark Terry','Thad Jones','Bobby Bradford','Ruby Braff'],
-  flugelhorn:['Art Farmer','Miles Davis','Clark Terry','Freddie Hubbard','Thad Jones','Chet Baker'],
+  flugelhorn:['Art Farmer','Miles Davis','Clark Terry','Freddie Hubbard','Thad Jones','Chet Baker','Donald Byrd','Woody Shaw','Booker Little','Kenny Dorham','Wilbur Harden'],
   soprano_sax:['John Coltrane','Steve Lacy','Sidney Bechet','Wayne Shorter','Roland Kirk','Sam Rivers','Dave Liebman'],
   alto_sax:['Cannonball Adderley','Lee Konitz','Phil Woods','Jackie McLean','Art Pepper','Sonny Stitt','Paul Desmond','Eric Dolphy','Charlie Parker','Ornette Coleman','John Handy','Frank Strozier','Gigi Gryce','Lou Donaldson','Charles McPherson', 'Gary Bartz'],
   tenor_sax:['John Coltrane','Sonny Rollins','Joe Henderson','Wayne Shorter','Hank Mobley','Dexter Gordon','Johnny Griffin','Benny Golson','Booker Ervin','Stanley Turrentine','Clifford Jordan','Jimmy Heath','Harold Land','Warne Marsh','Zoot Sims','Tina Brooks','Junior Cook','Charlie Rouse','George Coleman','Lucky Thompson'],
@@ -602,6 +602,9 @@ const songs = [
 
   { title:'Au Privave', album:"Mobley's Message", leader:'Hank Mobley', year:1956, youtubeId:'EvjjgQCYsk0',
     personnel:{ tenor_sax:'Hank Mobley', trumpet:'Donald Byrd', alto_sax:'Jackie McLean', piano:'Barry Harris', bass:'Doug Watkins', drums:'Art Taylor' }},
+
+  { title:'Countdown #2', album:'The Prestige Recordings', leader:'John Coltrane & Wilbur Harden', year:1958, youtubeId:'OMZMvERd-Ag',
+    personnel:{ tenor_sax:'John Coltrane', flugelhorn:'Wilbur Harden', piano:'Tommy Flanagan', bass:'Doug Watkins', drums:'Louis Hayes' }},
 
    
 ]; /* end songs */
