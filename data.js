@@ -374,6 +374,9 @@ const songs = [
   { title:'Philly Mignon', album:'Here To Stay', leader:'Freddie Hubbard', year:1962, youtubeId:'DOlkaWNocVw',
     personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Wayne Shorter', piano:'Cedar Walton', bass:'Reggie Workman', drums:'Philly Joe Jones' }},
 
+    { title:'Body And Soul', album:'Here To Stay', leader:'Freddie Hubbard', year:1962, youtubeId:'PdySF8nBowg',
+    personnel:{ trumpet:'Freddie Hubbard', tenor_sax:'Wayne Shorter', piano:'Cedar Walton', bass:'Reggie Workman', drums:'Philly Joe Jones' }},
+
   { title:'Visions', album:'Medina & Spiral', leader:'Bobby Hutcherson', year:1968, youtubeId:'zSGm28sdHqg',
     personnel:{ vibraphone:'Bobby Hutcherson', tenor_sax:'Harold Land', piano: 'Stanley Cowell', bass:'Reggie Johnson', drums:'Joe Chambers' }},
 
